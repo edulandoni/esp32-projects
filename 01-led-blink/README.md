@@ -30,8 +30,6 @@ It is a minimal “Hello World” for ESP32-S3 + ESP-IDF.
 
 If the LED is very dim, you can use a smaller resistor (e.g. 100 Ω) to increase current.
 
-![Wiring diagram](docs/wiring.jpg)
-
 ## Build and flash (ESP-IDF)
 
 . ~/esp/esp-idf/export.sh  
@@ -42,4 +40,4 @@ idf.py -p /dev/ttyACM0 flash monitor
 
 ## Demo video
 
-[Watch demo on YouTube](https://youtube.com/REPLACE_WITH_YOUR_LINK)
+[Watch demo on YouTube](https://youtu.be/ZH_s4ePdqRM)
