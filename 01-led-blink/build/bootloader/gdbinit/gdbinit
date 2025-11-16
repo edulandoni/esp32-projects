@@ -1,0 +1,2 @@
+source /home/elandoni/code/esp32/projects/led-blink-s3/build/bootloader/gdbinit/symbols
+source /home/elandoni/code/esp32/projects/led-blink-s3/build/bootloader/gdbinit/connect

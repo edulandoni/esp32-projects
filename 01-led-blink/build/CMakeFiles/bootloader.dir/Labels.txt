@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/elandoni/code/esp32/projects/led-blink-s3/build/CMakeFiles/bootloader
+/home/elandoni/code/esp32/projects/led-blink-s3/build/CMakeFiles/bootloader.rule
+/home/elandoni/code/esp32/projects/led-blink-s3/build/CMakeFiles/bootloader-complete.rule
+/home/elandoni/code/esp32/projects/led-blink-s3/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/elandoni/code/esp32/projects/led-blink-s3/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/elandoni/code/esp32/projects/led-blink-s3/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/elandoni/code/esp32/projects/led-blink-s3/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/elandoni/code/esp32/projects/led-blink-s3/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/elandoni/code/esp32/projects/led-blink-s3/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/elandoni/code/esp32/projects/led-blink-s3/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
