@@ -1,13 +1,13 @@
 {
     "version":            "1.2",
     "project_name":       "led-blink-s3",
-    "project_version":    "1",
-    "project_path":       "/home/elandoni/code/esp32/projects/led-blink-s3",
+    "project_version":    "22a7ba3-dirty",
+    "project_path":       "/home/elandoni/code/esp32/esp32-projects/01-led-blink",
     "idf_path":           "/home/elandoni/code/esp32/esp-idf",
-    "build_dir":          "/home/elandoni/code/esp32/projects/led-blink-s3/build",
-    "config_file":        "/home/elandoni/code/esp32/projects/led-blink-s3/sdkconfig",
+    "build_dir":          "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build",
+    "config_file":        "/home/elandoni/code/esp32/esp32-projects/01-led-blink/sdkconfig",
     "config_defaults":    "",
-    "bootloader_elf":     "/home/elandoni/code/esp32/projects/led-blink-s3/build/bootloader/bootloader.elf",
+    "bootloader_elf":     "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/bootloader/bootloader.elf",
     "app_elf":            "led-blink-s3.elf",
     "app_bin":            "led-blink-s3.bin",
     "build_type":         "flash_app",
@@ -26,7 +26,7 @@
     },
     "common_component_reqs": [ "cxx", "esp_libc", "freertos", "esp_hw_support", "heap", "log", "soc", "hal", "esp_rom", "esp_common", "esp_system", "esp_stdio", "xtensa" ],
     "build_components" : [ "app_trace", "app_update", "bootloader", "bootloader_support", "bt", "cmock", "console", "cxx", "driver", "efuse", "esp-tls", "esp_adc", "esp_app_format", "esp_blockdev", "esp_bootloader_format", "esp_coex", "esp_common", "esp_driver_ana_cmpr", "esp_driver_bitscrambler", "esp_driver_cam", "esp_driver_dac", "esp_driver_gpio", "esp_driver_gptimer", "esp_driver_i2c", "esp_driver_i2s", "esp_driver_i3c", "esp_driver_isp", "esp_driver_jpeg", "esp_driver_ledc", "esp_driver_mcpwm", "esp_driver_parlio", "esp_driver_pcnt", "esp_driver_ppa", "esp_driver_rmt", "esp_driver_sd_intf", "esp_driver_sdio", "esp_driver_sdm", "esp_driver_sdmmc", "esp_driver_sdspi", "esp_driver_spi", "esp_driver_touch_sens", "esp_driver_tsens", "esp_driver_twai", "esp_driver_uart", "esp_driver_usb_serial_jtag", "esp_eth", "esp_event", "esp_gdbstub", "esp_hal_dma", "esp_hal_i2c", "esp_hal_jpeg", "esp_hal_lcd", "esp_hal_mcpwm", "esp_hal_mspi", "esp_hal_timg", "esp_hal_wdt", "esp_hid", "esp_http_client", "esp_http_server", "esp_https_ota", "esp_https_server", "esp_hw_support", "esp_lcd", "esp_libc", "esp_local_ctrl", "esp_mm", "esp_netif", "esp_netif_stack", "esp_partition", "esp_phy", "esp_pm", "esp_psram", "esp_ringbuf", "esp_rom", "esp_security", "esp_stdio", "esp_system", "esp_timer", "esp_trace", "esp_usb_cdc_rom_console", "esp_wifi", "espcoredump", "esptool_py", "fatfs", "freertos", "hal", "heap", "http_parser", "idf_test", "ieee802154", "log", "lwip", "main", "mbedtls", "mqtt", "nvs_flash", "nvs_sec_provider", "openthread", "partition_table", "perfmon", "protobuf-c", "protocomm", "pthread", "rt", "sdmmc", "soc", "spi_flash", "spiffs", "tcp_transport", "ulp", "unity", "vfs", "wear_levelling", "wpa_supplicant", "xtensa", "" ],
-    "build_component_paths" : [ "/home/elandoni/code/esp32/esp-idf/components/app_trace", "/home/elandoni/code/esp32/esp-idf/components/app_update", "/home/elandoni/code/esp32/esp-idf/components/bootloader", "/home/elandoni/code/esp32/esp-idf/components/bootloader_support", "/home/elandoni/code/esp32/esp-idf/components/bt", "/home/elandoni/code/esp32/esp-idf/components/cmock", "/home/elandoni/code/esp32/esp-idf/components/console", "/home/elandoni/code/esp32/esp-idf/components/cxx", "/home/elandoni/code/esp32/esp-idf/components/driver", "/home/elandoni/code/esp32/esp-idf/components/efuse", "/home/elandoni/code/esp32/esp-idf/components/esp-tls", "/home/elandoni/code/esp32/esp-idf/components/esp_adc", "/home/elandoni/code/esp32/esp-idf/components/esp_app_format", "/home/elandoni/code/esp32/esp-idf/components/esp_blockdev", "/home/elandoni/code/esp32/esp-idf/components/esp_bootloader_format", "/home/elandoni/code/esp32/esp-idf/components/esp_coex", "/home/elandoni/code/esp32/esp-idf/components/esp_common", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_ana_cmpr", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_bitscrambler", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_cam", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_dac", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_gpio", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_gptimer", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_i2c", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_i2s", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_i3c", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_isp", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_jpeg", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_ledc", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_mcpwm", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_parlio", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_pcnt", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_ppa", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_rmt", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_sd_intf", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_sdio", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_sdm", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_sdmmc", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_sdspi", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_spi", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_touch_sens", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_tsens", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_twai", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_uart", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_usb_serial_jtag", "/home/elandoni/code/esp32/esp-idf/components/esp_eth", "/home/elandoni/code/esp32/esp-idf/components/esp_event", "/home/elandoni/code/esp32/esp-idf/components/esp_gdbstub", "/home/elandoni/code/esp32/esp-idf/components/esp_hal_dma", "/home/elandoni/code/esp32/esp-idf/components/esp_hal_i2c", "/home/elandoni/code/esp32/esp-idf/components/esp_hal_jpeg", "/home/elandoni/code/esp32/esp-idf/components/esp_hal_lcd", "/home/elandoni/code/esp32/esp-idf/components/esp_hal_mcpwm", "/home/elandoni/code/esp32/esp-idf/components/esp_hal_mspi", "/home/elandoni/code/esp32/esp-idf/components/esp_hal_timg", "/home/elandoni/code/esp32/esp-idf/components/esp_hal_wdt", "/home/elandoni/code/esp32/esp-idf/components/esp_hid", "/home/elandoni/code/esp32/esp-idf/components/esp_http_client", "/home/elandoni/code/esp32/esp-idf/components/esp_http_server", "/home/elandoni/code/esp32/esp-idf/components/esp_https_ota", "/home/elandoni/code/esp32/esp-idf/components/esp_https_server", "/home/elandoni/code/esp32/esp-idf/components/esp_hw_support", "/home/elandoni/code/esp32/esp-idf/components/esp_lcd", "/home/elandoni/code/esp32/esp-idf/components/esp_libc", "/home/elandoni/code/esp32/esp-idf/components/esp_local_ctrl", "/home/elandoni/code/esp32/esp-idf/components/esp_mm", "/home/elandoni/code/esp32/esp-idf/components/esp_netif", "/home/elandoni/code/esp32/esp-idf/components/esp_netif_stack", "/home/elandoni/code/esp32/esp-idf/components/esp_partition", "/home/elandoni/code/esp32/esp-idf/components/esp_phy", "/home/elandoni/code/esp32/esp-idf/components/esp_pm", "/home/elandoni/code/esp32/esp-idf/components/esp_psram", "/home/elandoni/code/esp32/esp-idf/components/esp_ringbuf", "/home/elandoni/code/esp32/esp-idf/components/esp_rom", "/home/elandoni/code/esp32/esp-idf/components/esp_security", "/home/elandoni/code/esp32/esp-idf/components/esp_stdio", "/home/elandoni/code/esp32/esp-idf/components/esp_system", "/home/elandoni/code/esp32/esp-idf/components/esp_timer", "/home/elandoni/code/esp32/esp-idf/components/esp_trace", "/home/elandoni/code/esp32/esp-idf/components/esp_usb_cdc_rom_console", "/home/elandoni/code/esp32/esp-idf/components/esp_wifi", "/home/elandoni/code/esp32/esp-idf/components/espcoredump", "/home/elandoni/code/esp32/esp-idf/components/esptool_py", "/home/elandoni/code/esp32/esp-idf/components/fatfs", "/home/elandoni/code/esp32/esp-idf/components/freertos", "/home/elandoni/code/esp32/esp-idf/components/hal", "/home/elandoni/code/esp32/esp-idf/components/heap", "/home/elandoni/code/esp32/esp-idf/components/http_parser", "/home/elandoni/code/esp32/esp-idf/components/idf_test", "/home/elandoni/code/esp32/esp-idf/components/ieee802154", "/home/elandoni/code/esp32/esp-idf/components/log", "/home/elandoni/code/esp32/esp-idf/components/lwip", "/home/elandoni/code/esp32/projects/led-blink-s3/main", "/home/elandoni/code/esp32/esp-idf/components/mbedtls", "/home/elandoni/code/esp32/esp-idf/components/mqtt", "/home/elandoni/code/esp32/esp-idf/components/nvs_flash", "/home/elandoni/code/esp32/esp-idf/components/nvs_sec_provider", "/home/elandoni/code/esp32/esp-idf/components/openthread", "/home/elandoni/code/esp32/esp-idf/components/partition_table", "/home/elandoni/code/esp32/esp-idf/components/perfmon", "/home/elandoni/code/esp32/esp-idf/components/protobuf-c", "/home/elandoni/code/esp32/esp-idf/components/protocomm", "/home/elandoni/code/esp32/esp-idf/components/pthread", "/home/elandoni/code/esp32/esp-idf/components/rt", "/home/elandoni/code/esp32/esp-idf/components/sdmmc", "/home/elandoni/code/esp32/esp-idf/components/soc", "/home/elandoni/code/esp32/esp-idf/components/spi_flash", "/home/elandoni/code/esp32/esp-idf/components/spiffs", "/home/elandoni/code/esp32/esp-idf/components/tcp_transport", "/home/elandoni/code/esp32/esp-idf/components/ulp", "/home/elandoni/code/esp32/esp-idf/components/unity", "/home/elandoni/code/esp32/esp-idf/components/vfs", "/home/elandoni/code/esp32/esp-idf/components/wear_levelling", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant", "/home/elandoni/code/esp32/esp-idf/components/xtensa", "" ],
+    "build_component_paths" : [ "/home/elandoni/code/esp32/esp-idf/components/app_trace", "/home/elandoni/code/esp32/esp-idf/components/app_update", "/home/elandoni/code/esp32/esp-idf/components/bootloader", "/home/elandoni/code/esp32/esp-idf/components/bootloader_support", "/home/elandoni/code/esp32/esp-idf/components/bt", "/home/elandoni/code/esp32/esp-idf/components/cmock", "/home/elandoni/code/esp32/esp-idf/components/console", "/home/elandoni/code/esp32/esp-idf/components/cxx", "/home/elandoni/code/esp32/esp-idf/components/driver", "/home/elandoni/code/esp32/esp-idf/components/efuse", "/home/elandoni/code/esp32/esp-idf/components/esp-tls", "/home/elandoni/code/esp32/esp-idf/components/esp_adc", "/home/elandoni/code/esp32/esp-idf/components/esp_app_format", "/home/elandoni/code/esp32/esp-idf/components/esp_blockdev", "/home/elandoni/code/esp32/esp-idf/components/esp_bootloader_format", "/home/elandoni/code/esp32/esp-idf/components/esp_coex", "/home/elandoni/code/esp32/esp-idf/components/esp_common", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_ana_cmpr", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_bitscrambler", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_cam", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_dac", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_gpio", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_gptimer", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_i2c", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_i2s", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_i3c", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_isp", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_jpeg", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_ledc", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_mcpwm", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_parlio", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_pcnt", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_ppa", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_rmt", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_sd_intf", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_sdio", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_sdm", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_sdmmc", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_sdspi", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_spi", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_touch_sens", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_tsens", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_twai", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_uart", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_usb_serial_jtag", "/home/elandoni/code/esp32/esp-idf/components/esp_eth", "/home/elandoni/code/esp32/esp-idf/components/esp_event", "/home/elandoni/code/esp32/esp-idf/components/esp_gdbstub", "/home/elandoni/code/esp32/esp-idf/components/esp_hal_dma", "/home/elandoni/code/esp32/esp-idf/components/esp_hal_i2c", "/home/elandoni/code/esp32/esp-idf/components/esp_hal_jpeg", "/home/elandoni/code/esp32/esp-idf/components/esp_hal_lcd", "/home/elandoni/code/esp32/esp-idf/components/esp_hal_mcpwm", "/home/elandoni/code/esp32/esp-idf/components/esp_hal_mspi", "/home/elandoni/code/esp32/esp-idf/components/esp_hal_timg", "/home/elandoni/code/esp32/esp-idf/components/esp_hal_wdt", "/home/elandoni/code/esp32/esp-idf/components/esp_hid", "/home/elandoni/code/esp32/esp-idf/components/esp_http_client", "/home/elandoni/code/esp32/esp-idf/components/esp_http_server", "/home/elandoni/code/esp32/esp-idf/components/esp_https_ota", "/home/elandoni/code/esp32/esp-idf/components/esp_https_server", "/home/elandoni/code/esp32/esp-idf/components/esp_hw_support", "/home/elandoni/code/esp32/esp-idf/components/esp_lcd", "/home/elandoni/code/esp32/esp-idf/components/esp_libc", "/home/elandoni/code/esp32/esp-idf/components/esp_local_ctrl", "/home/elandoni/code/esp32/esp-idf/components/esp_mm", "/home/elandoni/code/esp32/esp-idf/components/esp_netif", "/home/elandoni/code/esp32/esp-idf/components/esp_netif_stack", "/home/elandoni/code/esp32/esp-idf/components/esp_partition", "/home/elandoni/code/esp32/esp-idf/components/esp_phy", "/home/elandoni/code/esp32/esp-idf/components/esp_pm", "/home/elandoni/code/esp32/esp-idf/components/esp_psram", "/home/elandoni/code/esp32/esp-idf/components/esp_ringbuf", "/home/elandoni/code/esp32/esp-idf/components/esp_rom", "/home/elandoni/code/esp32/esp-idf/components/esp_security", "/home/elandoni/code/esp32/esp-idf/components/esp_stdio", "/home/elandoni/code/esp32/esp-idf/components/esp_system", "/home/elandoni/code/esp32/esp-idf/components/esp_timer", "/home/elandoni/code/esp32/esp-idf/components/esp_trace", "/home/elandoni/code/esp32/esp-idf/components/esp_usb_cdc_rom_console", "/home/elandoni/code/esp32/esp-idf/components/esp_wifi", "/home/elandoni/code/esp32/esp-idf/components/espcoredump", "/home/elandoni/code/esp32/esp-idf/components/esptool_py", "/home/elandoni/code/esp32/esp-idf/components/fatfs", "/home/elandoni/code/esp32/esp-idf/components/freertos", "/home/elandoni/code/esp32/esp-idf/components/hal", "/home/elandoni/code/esp32/esp-idf/components/heap", "/home/elandoni/code/esp32/esp-idf/components/http_parser", "/home/elandoni/code/esp32/esp-idf/components/idf_test", "/home/elandoni/code/esp32/esp-idf/components/ieee802154", "/home/elandoni/code/esp32/esp-idf/components/log", "/home/elandoni/code/esp32/esp-idf/components/lwip", "/home/elandoni/code/esp32/esp32-projects/01-led-blink/main", "/home/elandoni/code/esp32/esp-idf/components/mbedtls", "/home/elandoni/code/esp32/esp-idf/components/mqtt", "/home/elandoni/code/esp32/esp-idf/components/nvs_flash", "/home/elandoni/code/esp32/esp-idf/components/nvs_sec_provider", "/home/elandoni/code/esp32/esp-idf/components/openthread", "/home/elandoni/code/esp32/esp-idf/components/partition_table", "/home/elandoni/code/esp32/esp-idf/components/perfmon", "/home/elandoni/code/esp32/esp-idf/components/protobuf-c", "/home/elandoni/code/esp32/esp-idf/components/protocomm", "/home/elandoni/code/esp32/esp-idf/components/pthread", "/home/elandoni/code/esp32/esp-idf/components/rt", "/home/elandoni/code/esp32/esp-idf/components/sdmmc", "/home/elandoni/code/esp32/esp-idf/components/soc", "/home/elandoni/code/esp32/esp-idf/components/spi_flash", "/home/elandoni/code/esp32/esp-idf/components/spiffs", "/home/elandoni/code/esp32/esp-idf/components/tcp_transport", "/home/elandoni/code/esp32/esp-idf/components/ulp", "/home/elandoni/code/esp32/esp-idf/components/unity", "/home/elandoni/code/esp32/esp-idf/components/vfs", "/home/elandoni/code/esp32/esp-idf/components/wear_levelling", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant", "/home/elandoni/code/esp32/esp-idf/components/xtensa", "" ],
     "build_component_info" : {
         "app_trace": {
             "alias": "idf::app_trace",
@@ -54,7 +54,7 @@
             "priv_reqs": [ "esptool_py", "efuse", "spi_flash" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/app_update/libapp_update.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/app_update/libapp_update.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/app_update/esp_ota_ops.c" ],
             "include_dirs": [ "include" ]
         },
@@ -84,7 +84,7 @@
             "priv_reqs": [ "spi_flash", "mbedtls", "efuse", "heap", "esp_bootloader_format", "esp_app_format", "esptool_py", "esp_hal_wdt" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/bootloader_support/libbootloader_support.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/bootloader_support/libbootloader_support.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/bootloader_support/src/bootloader_common.c", "/home/elandoni/code/esp32/esp-idf/components/bootloader_support/src/bootloader_common_loader.c", "/home/elandoni/code/esp32/esp-idf/components/bootloader_support/src/bootloader_clock_init.c", "/home/elandoni/code/esp32/esp-idf/components/bootloader_support/src/bootloader_mem.c", "/home/elandoni/code/esp32/esp-idf/components/bootloader_support/src/bootloader_random.c", "/home/elandoni/code/esp32/esp-idf/components/bootloader_support/src/bootloader_efuse.c", "/home/elandoni/code/esp32/esp-idf/components/bootloader_support/src/flash_encrypt.c", "/home/elandoni/code/esp32/esp-idf/components/bootloader_support/src/secure_boot.c", "/home/elandoni/code/esp32/esp-idf/components/bootloader_support/src/bootloader_random_esp32s3.c", "/home/elandoni/code/esp32/esp-idf/components/bootloader_support/bootloader_flash/src/bootloader_flash.c", "/home/elandoni/code/esp32/esp-idf/components/bootloader_support/bootloader_flash/src/flash_qio_mode.c", "/home/elandoni/code/esp32/esp-idf/components/bootloader_support/bootloader_flash/src/bootloader_flash_config_esp32s3.c", "/home/elandoni/code/esp32/esp-idf/components/bootloader_support/src/bootloader_utility.c", "/home/elandoni/code/esp32/esp-idf/components/bootloader_support/src/flash_partitions.c", "/home/elandoni/code/esp32/esp-idf/components/bootloader_support/src/esp_image_format.c", "/home/elandoni/code/esp32/esp-idf/components/bootloader_support/src/bootloader_sha.c", "/home/elandoni/code/esp32/esp-idf/components/bootloader_support/src/esp32s3/secure_boot_secure_features.c" ],
             "include_dirs": [ "include", "bootloader_flash/include" ]
         },
@@ -114,7 +114,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/cmock/libcmock.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/cmock/libcmock.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/cmock/CMock/src/cmock.c" ],
             "include_dirs": [ "CMock/src" ]
         },
@@ -129,7 +129,7 @@
             "priv_reqs": [ "esp_driver_uart", "esp_driver_usb_serial_jtag", "esp_usb_cdc_rom_console" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/console/libconsole.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/console/libconsole.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/console/commands.c", "/home/elandoni/code/esp32/esp-idf/components/console/esp_console_common.c", "/home/elandoni/code/esp32/esp-idf/components/console/esp_console_repl_internal.c", "/home/elandoni/code/esp32/esp-idf/components/console/split_argv.c", "/home/elandoni/code/esp32/esp-idf/components/console/linenoise/linenoise.c", "/home/elandoni/code/esp32/esp-idf/components/console/esp_console_repl_chip.c", "/home/elandoni/code/esp32/esp-idf/components/console/argtable3/arg_cmd.c", "/home/elandoni/code/esp32/esp-idf/components/console/argtable3/arg_date.c", "/home/elandoni/code/esp32/esp-idf/components/console/argtable3/arg_dbl.c", "/home/elandoni/code/esp32/esp-idf/components/console/argtable3/arg_dstr.c", "/home/elandoni/code/esp32/esp-idf/components/console/argtable3/arg_end.c", "/home/elandoni/code/esp32/esp-idf/components/console/argtable3/arg_file.c", "/home/elandoni/code/esp32/esp-idf/components/console/argtable3/arg_hashtable.c", "/home/elandoni/code/esp32/esp-idf/components/console/argtable3/arg_int.c", "/home/elandoni/code/esp32/esp-idf/components/console/argtable3/arg_lit.c", "/home/elandoni/code/esp32/esp-idf/components/console/argtable3/arg_rem.c", "/home/elandoni/code/esp32/esp-idf/components/console/argtable3/arg_rex.c", "/home/elandoni/code/esp32/esp-idf/components/console/argtable3/arg_str.c", "/home/elandoni/code/esp32/esp-idf/components/console/argtable3/arg_utils.c", "/home/elandoni/code/esp32/esp-idf/components/console/argtable3/argtable3.c" ],
             "include_dirs": [ "/home/elandoni/code/esp32/esp-idf/components/console" ]
         },
@@ -144,7 +144,7 @@
             "priv_reqs": [ "esp_system", "pthread" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/cxx/libcxx.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/cxx/libcxx.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/cxx/cxx_exception_stubs.cpp", "/home/elandoni/code/esp32/esp-idf/components/cxx/cxx_guards.cpp", "/home/elandoni/code/esp32/esp-idf/components/cxx/cxx_init.cpp" ],
             "include_dirs": []
         },
@@ -159,7 +159,7 @@
             "priv_reqs": [ "esp_timer", "esp_mm", "esp_driver_gpio", "esp_ringbuf", "esp_pm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/driver/libdriver.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/driver/libdriver.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/driver/i2c/i2c.c", "/home/elandoni/code/esp32/esp-idf/components/driver/touch_sensor/touch_sensor_common.c", "/home/elandoni/code/esp32/esp-idf/components/driver/touch_sensor/esp32s3/touch_sensor.c", "/home/elandoni/code/esp32/esp-idf/components/driver/twai/twai.c" ],
             "include_dirs": [ "i2c/include", "touch_sensor/include", "twai/include", "touch_sensor/esp32s3/include" ]
         },
@@ -174,7 +174,7 @@
             "priv_reqs": [ "bootloader_support", "soc", "spi_flash", "esp_system", "esp_partition", "esp_app_format" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/efuse/libefuse.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/efuse/libefuse.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/efuse/esp32s3/esp_efuse_table.c", "/home/elandoni/code/esp32/esp-idf/components/efuse/esp32s3/esp_efuse_fields.c", "/home/elandoni/code/esp32/esp-idf/components/efuse/esp32s3/esp_efuse_rtc_calib.c", "/home/elandoni/code/esp32/esp-idf/components/efuse/esp32s3/esp_efuse_utility.c", "/home/elandoni/code/esp32/esp-idf/components/efuse/src/esp_efuse_api.c", "/home/elandoni/code/esp32/esp-idf/components/efuse/src/esp_efuse_fields.c", "/home/elandoni/code/esp32/esp-idf/components/efuse/src/esp_efuse_utility.c", "/home/elandoni/code/esp32/esp-idf/components/efuse/src/efuse_controller/keys/with_key_purposes/esp_efuse_api_key.c", "/home/elandoni/code/esp32/esp-idf/components/efuse/src/esp_efuse_startup.c" ],
             "include_dirs": [ "include", "esp32s3/include" ]
         },
@@ -189,7 +189,7 @@
             "priv_reqs": [ "http_parser", "esp_timer", "lwip" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/esp-tls/libesp-tls.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/esp-tls/libesp-tls.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/esp-tls/esp_tls.c", "/home/elandoni/code/esp32/esp-idf/components/esp-tls/esp-tls-crypto/esp_tls_crypto.c", "/home/elandoni/code/esp32/esp-idf/components/esp-tls/esp_tls_error_capture.c", "/home/elandoni/code/esp32/esp-idf/components/esp-tls/esp_tls_platform_port.c", "/home/elandoni/code/esp32/esp-idf/components/esp-tls/esp_tls_mbedtls.c" ],
             "include_dirs": [ "/home/elandoni/code/esp32/esp-idf/components/esp-tls", "esp-tls-crypto" ]
         },
@@ -204,7 +204,7 @@
             "priv_reqs": [ "esp_driver_gpio", "efuse", "esp_pm", "esp_ringbuf", "esp_mm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/esp_adc/libesp_adc.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/esp_adc/libesp_adc.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/esp_adc/adc_oneshot.c", "/home/elandoni/code/esp32/esp-idf/components/esp_adc/adc_common.c", "/home/elandoni/code/esp32/esp-idf/components/esp_adc/adc_cali.c", "/home/elandoni/code/esp32/esp-idf/components/esp_adc/adc_cali_curve_fitting.c", "/home/elandoni/code/esp32/esp-idf/components/esp_adc/adc_continuous.c", "/home/elandoni/code/esp32/esp-idf/components/esp_adc/adc_monitor.c", "/home/elandoni/code/esp32/esp-idf/components/esp_adc/gdma/adc_dma.c", "/home/elandoni/code/esp32/esp-idf/components/esp_adc/adc_filter.c", "/home/elandoni/code/esp32/esp-idf/components/esp_adc/esp32s3/curve_fitting_coefficients.c" ],
             "include_dirs": [ "include", "interface", "esp32s3/include" ]
         },
@@ -219,7 +219,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/esp_app_format/libesp_app_format.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/esp_app_format/libesp_app_format.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/esp_app_format/esp_app_desc.c" ],
             "include_dirs": [ "include" ]
         },
@@ -249,7 +249,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/esp_bootloader_format/libesp_bootloader_format.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/esp_bootloader_format/libesp_bootloader_format.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/esp_bootloader_format/esp_bootloader_desc.c" ],
             "include_dirs": [ "include" ]
         },
@@ -264,7 +264,7 @@
             "priv_reqs": [ "esp_timer", "esp_driver_gpio" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/esp_coex/libesp_coex.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/esp_coex/libesp_coex.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/esp_coex/esp32s3/esp_coex_adapter.c", "/home/elandoni/code/esp32/esp-idf/components/esp_coex/src/coexist_debug_diagram.c", "/home/elandoni/code/esp32/esp-idf/components/esp_coex/src/coexist_debug.c" ],
             "include_dirs": [ "include" ]
         },
@@ -279,7 +279,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/esp_common/libesp_common.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/esp_common/libesp_common.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/esp_common/src/esp_err_to_name.c" ],
             "include_dirs": [ "include" ]
         },
@@ -324,7 +324,7 @@
             "priv_reqs": [ "esp_driver_gpio" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/esp_driver_cam/libesp_driver_cam.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/esp_driver_cam/libesp_driver_cam.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/esp_driver_cam/esp_cam_ctlr.c", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_cam/dvp_share_ctrl.c", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_cam/dvp/src/esp_cam_ctlr_dvp_gdma.c", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_cam/dvp/src/esp_cam_ctlr_dvp_cam.c" ],
             "include_dirs": [ "include", "interface", "dvp/include" ]
         },
@@ -354,7 +354,7 @@
             "priv_reqs": [ "esp_pm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/esp_driver_gpio/libesp_driver_gpio.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/esp_driver_gpio/libesp_driver_gpio.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/esp_driver_gpio/src/gpio.c", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_gpio/src/gpio_glitch_filter_ops.c", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_gpio/src/rtc_io.c", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_gpio/src/dedic_gpio.c", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_gpio/src/gpio_pin_glitch_filter.c" ],
             "include_dirs": [ "include" ]
         },
@@ -369,7 +369,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/esp_driver_gptimer/libesp_driver_gptimer.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/esp_driver_gptimer/libesp_driver_gptimer.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/esp_driver_gptimer/src/gptimer.c", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_gptimer/src/gptimer_common.c" ],
             "include_dirs": [ "include" ]
         },
@@ -384,7 +384,7 @@
             "priv_reqs": [ "esp_driver_gpio", "esp_pm", "esp_ringbuf" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/esp_driver_i2c/libesp_driver_i2c.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/esp_driver_i2c/libesp_driver_i2c.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/esp_driver_i2c/i2c_master.c", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_i2c/i2c_common.c", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_i2c/i2c_slave.c" ],
             "include_dirs": [ "include" ]
         },
@@ -399,7 +399,7 @@
             "priv_reqs": [ "esp_driver_gpio", "esp_pm", "esp_mm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/esp_driver_i2s/libesp_driver_i2s.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/esp_driver_i2s/libesp_driver_i2s.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/esp_driver_i2s/i2s_common.c", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_i2s/i2s_std.c", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_i2s/i2s_pdm.c", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_i2s/i2s_tdm.c", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_i2s/i2s_platform.c" ],
             "include_dirs": [ "include" ]
         },
@@ -459,7 +459,7 @@
             "priv_reqs": [ "esp_pm", "esp_driver_gpio" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/esp_driver_ledc/libesp_driver_ledc.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/esp_driver_ledc/libesp_driver_ledc.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/esp_driver_ledc/src/ledc.c" ],
             "include_dirs": [ "include" ]
         },
@@ -474,7 +474,7 @@
             "priv_reqs": [ "esp_pm", "esp_driver_gpio" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/esp_driver_mcpwm/libesp_driver_mcpwm.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/esp_driver_mcpwm/libesp_driver_mcpwm.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/esp_driver_mcpwm/src/mcpwm_cap.c", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_mcpwm/src/mcpwm_cmpr.c", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_mcpwm/src/mcpwm_com.c", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_mcpwm/src/mcpwm_fault.c", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_mcpwm/src/mcpwm_gen.c", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_mcpwm/src/mcpwm_oper.c", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_mcpwm/src/mcpwm_sync.c", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_mcpwm/src/mcpwm_timer.c" ],
             "include_dirs": [ "include" ]
         },
@@ -504,7 +504,7 @@
             "priv_reqs": [ "esp_pm", "esp_driver_gpio" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/esp_driver_pcnt/libesp_driver_pcnt.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/esp_driver_pcnt/libesp_driver_pcnt.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/esp_driver_pcnt/src/pulse_cnt.c" ],
             "include_dirs": [ "include" ]
         },
@@ -534,7 +534,7 @@
             "priv_reqs": [ "esp_pm", "esp_driver_gpio", "esp_driver_bitscrambler", "esp_mm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/esp_driver_rmt/libesp_driver_rmt.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/esp_driver_rmt/libesp_driver_rmt.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/esp_driver_rmt/src/rmt_common.c", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_rmt/src/rmt_encoder.c", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_rmt/src/rmt_encoder_bytes.c", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_rmt/src/rmt_encoder_copy.c", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_rmt/src/rmt_encoder_simple.c", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_rmt/src/rmt_rx.c", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_rmt/src/rmt_tx.c" ],
             "include_dirs": [ "include" ]
         },
@@ -549,7 +549,7 @@
             "priv_reqs": [ "sdmmc" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/esp_driver_sd_intf/libesp_driver_sd_intf.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/esp_driver_sd_intf/libesp_driver_sd_intf.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/esp_driver_sd_intf/sd_host.c" ],
             "include_dirs": [ "include" ]
         },
@@ -579,7 +579,7 @@
             "priv_reqs": [ "esp_pm", "esp_driver_gpio" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/esp_driver_sdm/libesp_driver_sdm.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/esp_driver_sdm/libesp_driver_sdm.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/esp_driver_sdm/src/sdm.c" ],
             "include_dirs": [ "include" ]
         },
@@ -594,7 +594,7 @@
             "priv_reqs": [ "esp_timer", "esp_pm", "esp_mm", "esp_driver_gpio" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/esp_driver_sdmmc/libesp_driver_sdmmc.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/esp_driver_sdmmc/libesp_driver_sdmmc.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/esp_driver_sdmmc/legacy/src/sdmmc_transaction.c", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_sdmmc/legacy/src/sdmmc_host.c", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_sdmmc/src/sd_host_sdmmc.c", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_sdmmc/src/sd_trans_sdmmc.c" ],
             "include_dirs": [ "include", "legacy/include" ]
         },
@@ -609,7 +609,7 @@
             "priv_reqs": [ "esp_timer", "esp_mm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/esp_driver_sdspi/libesp_driver_sdspi.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/esp_driver_sdspi/libesp_driver_sdspi.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/esp_driver_sdspi/src/sdspi_crc.c", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_sdspi/src/sdspi_host.c", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_sdspi/src/sdspi_transaction.c" ],
             "include_dirs": [ "include" ]
         },
@@ -624,7 +624,7 @@
             "priv_reqs": [ "esp_timer", "esp_mm", "esp_driver_gpio" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/esp_driver_spi/libesp_driver_spi.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/esp_driver_spi/libesp_driver_spi.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/esp_driver_spi/src/gpspi/spi_common.c", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_spi/src/gpspi/spi_slave.c", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_spi/src/gpspi/spi_slave_hd.c" ],
             "include_dirs": [ "include" ]
         },
@@ -639,7 +639,7 @@
             "priv_reqs": [ "esp_driver_gpio" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/esp_driver_touch_sens/libesp_driver_touch_sens.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/esp_driver_touch_sens/libesp_driver_touch_sens.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/esp_driver_touch_sens/common/touch_sens_common.c", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_touch_sens/hw_ver2/touch_version_specific.c" ],
             "include_dirs": [ "include", "hw_ver2/include" ]
         },
@@ -654,7 +654,7 @@
             "priv_reqs": [ "efuse" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/esp_driver_tsens/libesp_driver_tsens.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/esp_driver_tsens/libesp_driver_tsens.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/esp_driver_tsens/src/temperature_sensor.c" ],
             "include_dirs": [ "include" ]
         },
@@ -669,7 +669,7 @@
             "priv_reqs": [ "esp_driver_gpio", "esp_pm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/esp_driver_twai/libesp_driver_twai.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/esp_driver_twai/libesp_driver_twai.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/esp_driver_twai/esp_twai.c", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_twai/esp_twai_onchip.c" ],
             "include_dirs": [ "include" ]
         },
@@ -684,7 +684,7 @@
             "priv_reqs": [ "esp_pm", "esp_driver_gpio", "esp_ringbuf", "esp_mm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/esp_driver_uart/libesp_driver_uart.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/esp_driver_uart/libesp_driver_uart.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/esp_driver_uart/src/uart.c", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_uart/src/uart_wakeup.c", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_uart/src/uhci.c", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_uart/src/uart_vfs.c" ],
             "include_dirs": [ "include" ]
         },
@@ -699,7 +699,7 @@
             "priv_reqs": [ "esp_driver_gpio", "esp_ringbuf", "esp_pm", "esp_timer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/esp_driver_usb_serial_jtag/libesp_driver_usb_serial_jtag.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/esp_driver_usb_serial_jtag/libesp_driver_usb_serial_jtag.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/esp_driver_usb_serial_jtag/src/usb_serial_jtag.c", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_usb_serial_jtag/src/usb_serial_jtag_connection_monitor.c", "/home/elandoni/code/esp32/esp-idf/components/esp_driver_usb_serial_jtag/src/usb_serial_jtag_vfs.c" ],
             "include_dirs": [ "include" ]
         },
@@ -714,7 +714,7 @@
             "priv_reqs": [ "log", "esp_timer", "esp_driver_spi", "esp_driver_gpio" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/esp_eth/libesp_eth.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/esp_eth/libesp_eth.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/esp_eth/src/esp_eth.c", "/home/elandoni/code/esp32/esp-idf/components/esp_eth/src/phy/esp_eth_phy_802_3.c", "/home/elandoni/code/esp32/esp-idf/components/esp_eth/src/esp_eth_netif_glue.c" ],
             "include_dirs": [ "include" ]
         },
@@ -729,7 +729,7 @@
             "priv_reqs": [ "esp_timer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/esp_event/libesp_event.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/esp_event/libesp_event.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/esp_event/default_event_loop.c", "/home/elandoni/code/esp32/esp-idf/components/esp_event/esp_event.c", "/home/elandoni/code/esp32/esp-idf/components/esp_event/esp_event_private.c" ],
             "include_dirs": [ "include" ]
         },
@@ -744,7 +744,7 @@
             "priv_reqs": [ "esp_hal_wdt" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/esp_gdbstub/libesp_gdbstub.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/esp_gdbstub/libesp_gdbstub.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/esp_gdbstub/src/gdbstub.c", "/home/elandoni/code/esp32/esp-idf/components/esp_gdbstub/src/gdbstub_transport.c", "/home/elandoni/code/esp32/esp-idf/components/esp_gdbstub/src/packet.c", "/home/elandoni/code/esp32/esp-idf/components/esp_gdbstub/src/port/xtensa/gdbstub_xtensa.c", "/home/elandoni/code/esp32/esp-idf/components/esp_gdbstub/src/port/xtensa/gdbstub-entry.S", "/home/elandoni/code/esp32/esp-idf/components/esp_gdbstub/src/port/xtensa/xt_debugexception.S" ],
             "include_dirs": [ "include" ]
         },
@@ -759,7 +759,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/esp_hal_dma/libesp_hal_dma.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/esp_hal_dma/libesp_hal_dma.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/esp_hal_dma/gdma_hal_top.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hal_dma/esp32s3/gdma_periph.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hal_dma/gdma_hal_ahb_v1.c" ],
             "include_dirs": [ "include", "esp32s3/include" ]
         },
@@ -774,7 +774,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/esp_hal_i2c/libesp_hal_i2c.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/esp_hal_i2c/libesp_hal_i2c.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/esp_hal_i2c/i2c_hal.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hal_i2c/i2c_hal_iram.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hal_i2c/esp32s3/i2c_periph.c" ],
             "include_dirs": [ "esp32s3/include", "include" ]
         },
@@ -804,7 +804,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/esp_hal_lcd/libesp_hal_lcd.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/esp_hal_lcd/libesp_hal_lcd.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/esp_hal_lcd/lcd_hal.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hal_lcd/esp32s3/lcd_periph.c" ],
             "include_dirs": [ "include", "esp32s3/include" ]
         },
@@ -819,7 +819,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/esp_hal_mcpwm/libesp_hal_mcpwm.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/esp_hal_mcpwm/libesp_hal_mcpwm.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/esp_hal_mcpwm/mcpwm_hal.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hal_mcpwm/esp32s3/mcpwm_periph.c" ],
             "include_dirs": [ "include", "esp32s3/include" ]
         },
@@ -834,7 +834,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/esp_hal_mspi/libesp_hal_mspi.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/esp_hal_mspi/libesp_hal_mspi.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/esp_hal_mspi/spi_flash_hal.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hal_mspi/spi_flash_hal_iram.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hal_mspi/spi_flash_encrypt_hal_iram.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hal_mspi/spi_flash_hal_gpspi.c" ],
             "include_dirs": [ "include", "esp32s3/include" ]
         },
@@ -849,7 +849,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/esp_hal_timg/libesp_hal_timg.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/esp_hal_timg/libesp_hal_timg.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/esp_hal_timg/timer_hal.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hal_timg/esp32s3/timer_periph.c" ],
             "include_dirs": [ "include", "esp32s3/include" ]
         },
@@ -864,7 +864,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/esp_hal_wdt/libesp_hal_wdt.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/esp_hal_wdt/libesp_hal_wdt.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/esp_hal_wdt/esp32s3/mwdt_periph.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hal_wdt/rom_patch.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hal_wdt/xt_wdt_hal.c" ],
             "include_dirs": [ "include", "esp32s3/include" ]
         },
@@ -879,7 +879,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/esp_hid/libesp_hid.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/esp_hid/libesp_hid.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/esp_hid/src/esp_hidd.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hid/src/esp_hidh.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hid/src/esp_hid_common.c" ],
             "include_dirs": [ "include" ]
         },
@@ -894,7 +894,7 @@
             "priv_reqs": [ "tcp_transport", "http_parser" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/esp_http_client/libesp_http_client.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/esp_http_client/libesp_http_client.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/esp_http_client/esp_http_client.c", "/home/elandoni/code/esp32/esp-idf/components/esp_http_client/lib/http_auth.c", "/home/elandoni/code/esp32/esp-idf/components/esp_http_client/lib/http_header.c", "/home/elandoni/code/esp32/esp-idf/components/esp_http_client/lib/http_utils.c", "/home/elandoni/code/esp32/esp-idf/components/esp_http_client/lib/http_crypto_mbedtls.c" ],
             "include_dirs": [ "include" ]
         },
@@ -909,7 +909,7 @@
             "priv_reqs": [ "mbedtls", "lwip", "esp_timer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/esp_http_server/libesp_http_server.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/esp_http_server/libesp_http_server.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/esp_http_server/src/httpd_main.c", "/home/elandoni/code/esp32/esp-idf/components/esp_http_server/src/httpd_parse.c", "/home/elandoni/code/esp32/esp-idf/components/esp_http_server/src/httpd_sess.c", "/home/elandoni/code/esp32/esp-idf/components/esp_http_server/src/httpd_txrx.c", "/home/elandoni/code/esp32/esp-idf/components/esp_http_server/src/httpd_uri.c", "/home/elandoni/code/esp32/esp-idf/components/esp_http_server/src/httpd_ws.c", "/home/elandoni/code/esp32/esp-idf/components/esp_http_server/src/httpd_crypto_mbedtls.c", "/home/elandoni/code/esp32/esp-idf/components/esp_http_server/src/util/ctrl_sock.c" ],
             "include_dirs": [ "include" ]
         },
@@ -924,7 +924,7 @@
             "priv_reqs": [ "log", "app_update" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/esp_https_ota/libesp_https_ota.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/esp_https_ota/libesp_https_ota.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/esp_https_ota/src/esp_https_ota.c" ],
             "include_dirs": [ "include" ]
         },
@@ -939,7 +939,7 @@
             "priv_reqs": [ "lwip" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/esp_https_server/libesp_https_server.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/esp_https_server/libesp_https_server.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/esp_https_server/src/https_server.c" ],
             "include_dirs": [ "include" ]
         },
@@ -954,7 +954,7 @@
             "priv_reqs": [ "efuse", "spi_flash", "bootloader_support", "esp_hal_wdt", "esp_driver_gpio", "esp_timer", "esp_pm", "esp_mm", "esp_hal_mspi" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/esp_hw_support/libesp_hw_support.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/esp_hw_support/libesp_hw_support.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/esp_hw_support/cpu.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hw_support/port/esp32s3/esp_cpu_intr.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hw_support/esp_memory_utils.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hw_support/port/esp32s3/cpu_region_protect.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hw_support/esp_clk.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hw_support/clk_ctrl_os.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hw_support/hw_random.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hw_support/intr_alloc.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hw_support/mac_addr.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hw_support/periph_ctrl.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hw_support/revision.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hw_support/rtc_module.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hw_support/regi2c_ctrl.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hw_support/esp_gpio_reserve.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hw_support/sar_tsens_ctrl.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hw_support/port/esp32s3/io_mux.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hw_support/port/esp32s3/esp_clk_tree.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hw_support/dma/esp_dma_utils.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hw_support/dma/gdma_link.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hw_support/spi_bus_lock.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hw_support/clk_utils.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hw_support/usb_phy/usb_phy.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hw_support/port/esp_clk_tree_common.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hw_support/spi_share_hw_ctrl.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hw_support/adc_share_hw_ctrl.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hw_support/sleep_modem.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hw_support/sleep_modes.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hw_support/sleep_console.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hw_support/sleep_mspi.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hw_support/sleep_usb.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hw_support/sleep_gpio.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hw_support/sleep_event.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hw_support/dma/gdma.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hw_support/dma/esp_async_memcpy.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hw_support/dma/async_memcpy_gdma.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hw_support/port/esp32s3/systimer.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hw_support/mspi_timing_tuning/mspi_timing_tuning.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hw_support/sleep_wake_stub.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hw_support/esp_clock_output.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hw_support/power_supply/brownout.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hw_support/port/esp32s3/rtc_clk.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hw_support/port/esp32s3/rtc_clk_init.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hw_support/port/esp32s3/rtc_init.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hw_support/port/esp32s3/rtc_sleep.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hw_support/port/esp32s3/rtc_time.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hw_support/port/esp32s3/chip_info.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hw_support/port/esp32s3/sar_periph_ctrl.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hw_support/port/esp32s3/esp_memprot.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hw_support/port/esp_memprot_conv.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hw_support/mspi_timing_tuning/port/esp32s3/mspi_timing_config.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hw_support/mspi_timing_tuning/port/esp32s3/mspi_timing_by_mspi_delay.c", "/home/elandoni/code/esp32/esp-idf/components/esp_hw_support/lowpower/port/esp32s3/sleep_cpu.c" ],
             "include_dirs": [ "include", "include/soc", "dma/include", "ldo/include", "debug_probe/include", "etm/include", "mspi_timing_tuning/include", "mspi_timing_tuning/tuning_scheme_impl/include", "power_supply/include", "modem/include", "include/soc/esp32s3" ]
         },
@@ -969,7 +969,7 @@
             "priv_reqs": [ "esp_mm", "esp_psram", "esp_pm", "esp_driver_i2s" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/esp_lcd/libesp_lcd.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/esp_lcd/libesp_lcd.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/esp_lcd/src/esp_lcd_common.c", "/home/elandoni/code/esp32/esp-idf/components/esp_lcd/src/esp_lcd_panel_io.c", "/home/elandoni/code/esp32/esp-idf/components/esp_lcd/src/esp_lcd_panel_ssd1306.c", "/home/elandoni/code/esp32/esp-idf/components/esp_lcd/src/esp_lcd_panel_st7789.c", "/home/elandoni/code/esp32/esp-idf/components/esp_lcd/src/esp_lcd_panel_ops.c", "/home/elandoni/code/esp32/esp-idf/components/esp_lcd/i2c/esp_lcd_panel_io_i2c.c", "/home/elandoni/code/esp32/esp-idf/components/esp_lcd/spi/esp_lcd_panel_io_spi.c", "/home/elandoni/code/esp32/esp-idf/components/esp_lcd/i80/esp_lcd_panel_io_i80.c", "/home/elandoni/code/esp32/esp-idf/components/esp_lcd/rgb/esp_lcd_panel_rgb.c" ],
             "include_dirs": [ "include", "interface", "rgb/include" ]
         },
@@ -984,7 +984,7 @@
             "priv_reqs": [ "soc", "spi_flash" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/esp_libc/libesp_libc.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/esp_libc/libesp_libc.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/esp_libc/src/init.c", "/home/elandoni/code/esp32/esp-idf/components/esp_libc/src/abort.c", "/home/elandoni/code/esp32/esp-idf/components/esp_libc/src/assert.c", "/home/elandoni/code/esp32/esp-idf/components/esp_libc/src/heap.c", "/home/elandoni/code/esp32/esp-idf/components/esp_libc/src/locks.c", "/home/elandoni/code/esp32/esp-idf/components/esp_libc/src/poll.c", "/home/elandoni/code/esp32/esp-idf/components/esp_libc/src/pthread.c", "/home/elandoni/code/esp32/esp-idf/components/esp_libc/src/random.c", "/home/elandoni/code/esp32/esp-idf/components/esp_libc/src/getentropy.c", "/home/elandoni/code/esp32/esp-idf/components/esp_libc/src/termios.c", "/home/elandoni/code/esp32/esp-idf/components/esp_libc/src/stdatomic.c", "/home/elandoni/code/esp32/esp-idf/components/esp_libc/src/time.c", "/home/elandoni/code/esp32/esp-idf/components/esp_libc/src/sysconf.c", "/home/elandoni/code/esp32/esp-idf/components/esp_libc/src/realpath.c", "/home/elandoni/code/esp32/esp-idf/components/esp_libc/src/scandir.c", "/home/elandoni/code/esp32/esp-idf/components/esp_libc/src/syscalls.c", "/home/elandoni/code/esp32/esp-idf/components/esp_libc/src/reent_syscalls.c", "/home/elandoni/code/esp32/esp-idf/components/esp_libc/src/port/esp_time_impl.c", "/home/elandoni/code/esp32/esp-idf/components/esp_libc/src/flockfile.c", "/home/elandoni/code/esp32/esp-idf/components/esp_libc/src/reent_init.c", "/home/elandoni/code/esp32/esp-idf/components/esp_libc/src/newlib_init.c", "/home/elandoni/code/esp32/esp-idf/components/esp_libc/src/port/esp_time_impl.c" ],
             "include_dirs": [ "platform_include" ]
         },
@@ -999,7 +999,7 @@
             "priv_reqs": [ "protobuf-c", "esp_netif" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/esp_local_ctrl/libesp_local_ctrl.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/esp_local_ctrl/libesp_local_ctrl.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/esp_local_ctrl/src/esp_local_ctrl.c", "/home/elandoni/code/esp32/esp-idf/components/esp_local_ctrl/src/esp_local_ctrl_handler.c", "/home/elandoni/code/esp32/esp-idf/components/esp_local_ctrl/proto-c/esp_local_ctrl.pb-c.c", "/home/elandoni/code/esp32/esp-idf/components/esp_local_ctrl/src/esp_local_ctrl_transport_httpd.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1014,7 +1014,7 @@
             "priv_reqs": [ "heap", "spi_flash" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/esp_mm/libesp_mm.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/esp_mm/libesp_mm.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/esp_mm/esp_mmu_map.c", "/home/elandoni/code/esp32/esp-idf/components/esp_mm/port/esp32s3/ext_mem_layout.c", "/home/elandoni/code/esp32/esp-idf/components/esp_mm/esp_cache_msync.c", "/home/elandoni/code/esp32/esp-idf/components/esp_mm/esp_cache_utils.c", "/home/elandoni/code/esp32/esp-idf/components/esp_mm/heap_align_hw.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1029,7 +1029,7 @@
             "priv_reqs": [ "esp_netif_stack" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/esp_netif/libesp_netif.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/esp_netif/libesp_netif.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/esp_netif/esp_netif_handlers.c", "/home/elandoni/code/esp32/esp-idf/components/esp_netif/esp_netif_objects.c", "/home/elandoni/code/esp32/esp-idf/components/esp_netif/esp_netif_defaults.c", "/home/elandoni/code/esp32/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c", "/home/elandoni/code/esp32/esp-idf/components/esp_netif/lwip/esp_netif_sntp.c", "/home/elandoni/code/esp32/esp-idf/components/esp_netif/lwip/esp_netif_lwip_defaults.c", "/home/elandoni/code/esp32/esp-idf/components/esp_netif/lwip/netif/wlanif.c", "/home/elandoni/code/esp32/esp-idf/components/esp_netif/lwip/netif/ethernetif.c", "/home/elandoni/code/esp32/esp-idf/components/esp_netif/lwip/netif/esp_pbuf_ref.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1059,7 +1059,7 @@
             "priv_reqs": [ "esp_system", "spi_flash", "partition_table", "bootloader_support", "app_update" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/esp_partition/libesp_partition.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/esp_partition/libesp_partition.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/esp_partition/partition.c", "/home/elandoni/code/esp32/esp-idf/components/esp_partition/partition_target.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1074,7 +1074,7 @@
             "priv_reqs": [ "nvs_flash", "esp_driver_gpio", "efuse", "esp_timer", "esp_wifi", "esptool_py" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/esp_phy/libesp_phy.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/esp_phy/libesp_phy.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/esp_phy/src/phy_override.c", "/home/elandoni/code/esp32/esp-idf/components/esp_phy/src/lib_printf.c", "/home/elandoni/code/esp32/esp-idf/components/esp_phy/src/phy_common.c", "/home/elandoni/code/esp32/esp-idf/components/esp_phy/src/phy_init.c", "/home/elandoni/code/esp32/esp-idf/components/esp_phy/esp32s3/phy_init_data.c", "/home/elandoni/code/esp32/esp-idf/components/esp_phy/src/btbb_init.c" ],
             "include_dirs": [ "include", "esp32s3/include" ]
         },
@@ -1089,7 +1089,7 @@
             "priv_reqs": [ "esp_system", "esp_driver_gpio", "esp_timer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/esp_pm/libesp_pm.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/esp_pm/libesp_pm.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/esp_pm/pm_locks.c", "/home/elandoni/code/esp32/esp-idf/components/esp_pm/pm_trace.c", "/home/elandoni/code/esp32/esp-idf/components/esp_pm/pm_impl.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1119,7 +1119,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/esp_ringbuf/libesp_ringbuf.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/esp_ringbuf/libesp_ringbuf.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/esp_ringbuf/ringbuf.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1134,7 +1134,7 @@
             "priv_reqs": [ "soc", "hal" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/esp_rom/libesp_rom.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/esp_rom/libesp_rom.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/esp_rom/patches/esp_rom_sys.c", "/home/elandoni/code/esp32/esp-idf/components/esp_rom/patches/esp_rom_print.c", "/home/elandoni/code/esp32/esp-idf/components/esp_rom/patches/esp_rom_crc.c", "/home/elandoni/code/esp32/esp-idf/components/esp_rom/patches/esp_rom_serial_output.c", "/home/elandoni/code/esp32/esp-idf/components/esp_rom/patches/esp_rom_spiflash.c", "/home/elandoni/code/esp32/esp-idf/components/esp_rom/patches/esp_rom_efuse.c", "/home/elandoni/code/esp32/esp-idf/components/esp_rom/patches/esp_rom_gpio.c", "/home/elandoni/code/esp32/esp-idf/components/esp_rom/patches/esp_rom_longjmp.S", "/home/elandoni/code/esp32/esp-idf/components/esp_rom/patches/esp_rom_systimer.c", "/home/elandoni/code/esp32/esp-idf/components/esp_rom/patches/esp_rom_cache_esp32s2_esp32s3.c", "/home/elandoni/code/esp32/esp-idf/components/esp_rom/patches/esp_rom_cache_writeback_esp32s3.S" ],
             "include_dirs": [ "include", "esp32s3/include", "esp32s3/include/esp32s3", "esp32s3" ]
         },
@@ -1149,7 +1149,7 @@
             "priv_reqs": [ "efuse", "esp_system", "esp_timer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/esp_security/libesp_security.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/esp_security/libesp_security.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/esp_security/src/init.c", "/home/elandoni/code/esp32/esp-idf/components/esp_security/src/esp_hmac.c", "/home/elandoni/code/esp32/esp-idf/components/esp_security/src/esp_ds.c", "/home/elandoni/code/esp32/esp-idf/components/esp_security/src/esp_crypto_lock.c", "/home/elandoni/code/esp32/esp-idf/components/esp_security/src/esp_crypto_periph_clk.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1164,7 +1164,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/esp_stdio/libesp_stdio.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/esp_stdio/libesp_stdio.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/esp_stdio/stdio_vfs.c", "/home/elandoni/code/esp32/esp-idf/components/esp_stdio/stdio_simple.c", "/home/elandoni/code/esp32/esp-idf/components/esp_stdio/stdio_syscalls_simple.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1179,7 +1179,7 @@
             "priv_reqs": [ "spi_flash", "esp_timer", "esp_mm", "esp_hal_mspi", "bootloader_support", "esp_pm", "esp_usb_cdc_rom_console", "esp_hal_i2c", "esp_hal_wdt", "esp_hal_lcd", "esp_hal_mcpwm", "esp_hal_jpeg" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/esp_system/libesp_system.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/esp_system/libesp_system.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/esp_system/esp_err.c", "/home/elandoni/code/esp32/esp-idf/components/esp_system/crosscore_int.c", "/home/elandoni/code/esp32/esp-idf/components/esp_system/esp_ipc.c", "/home/elandoni/code/esp32/esp-idf/components/esp_system/freertos_hooks.c", "/home/elandoni/code/esp32/esp-idf/components/esp_system/int_wdt.c", "/home/elandoni/code/esp32/esp-idf/components/esp_system/panic.c", "/home/elandoni/code/esp32/esp-idf/components/esp_system/esp_system.c", "/home/elandoni/code/esp32/esp-idf/components/esp_system/startup.c", "/home/elandoni/code/esp32/esp-idf/components/esp_system/startup_funcs.c", "/home/elandoni/code/esp32/esp-idf/components/esp_system/system_time.c", "/home/elandoni/code/esp32/esp-idf/components/esp_system/stack_check.c", "/home/elandoni/code/esp32/esp-idf/components/esp_system/ubsan.c", "/home/elandoni/code/esp32/esp-idf/components/esp_system/xt_wdt.c", "/home/elandoni/code/esp32/esp-idf/components/esp_system/task_wdt/task_wdt.c", "/home/elandoni/code/esp32/esp-idf/components/esp_system/task_wdt/task_wdt_impl_timergroup.c", "/home/elandoni/code/esp32/esp-idf/components/esp_system/port/cpu_start.c", "/home/elandoni/code/esp32/esp-idf/components/esp_system/port/panic_handler.c", "/home/elandoni/code/esp32/esp-idf/components/esp_system/port/esp_system_chip.c", "/home/elandoni/code/esp32/esp-idf/components/esp_system/port/image_process.c", "/home/elandoni/code/esp32/esp-idf/components/esp_system/port/esp_ipc_isr.c", "/home/elandoni/code/esp32/esp-idf/components/esp_system/port/arch/xtensa/esp_ipc_isr_port.c", "/home/elandoni/code/esp32/esp-idf/components/esp_system/port/arch/xtensa/esp_ipc_isr_handler.S", "/home/elandoni/code/esp32/esp-idf/components/esp_system/port/arch/xtensa/esp_ipc_isr_routines.S", "/home/elandoni/code/esp32/esp-idf/components/esp_system/port/arch/xtensa/panic_arch.c", "/home/elandoni/code/esp32/esp-idf/components/esp_system/port/arch/xtensa/panic_handler_asm.S", "/home/elandoni/code/esp32/esp-idf/components/esp_system/port/arch/xtensa/expression_with_stack.c", "/home/elandoni/code/esp32/esp-idf/components/esp_system/port/arch/xtensa/expression_with_stack_asm.S", "/home/elandoni/code/esp32/esp-idf/components/esp_system/port/arch/xtensa/debug_helpers.c", "/home/elandoni/code/esp32/esp-idf/components/esp_system/port/arch/xtensa/debug_helpers_asm.S", "/home/elandoni/code/esp32/esp-idf/components/esp_system/port/arch/xtensa/debug_stubs.c", "/home/elandoni/code/esp32/esp-idf/components/esp_system/port/arch/xtensa/trax.c", "/home/elandoni/code/esp32/esp-idf/components/esp_system/port/soc/esp32s3/highint_hdl.S", "/home/elandoni/code/esp32/esp-idf/components/esp_system/port/soc/esp32s3/clk.c", "/home/elandoni/code/esp32/esp-idf/components/esp_system/port/soc/esp32s3/reset_reason.c", "/home/elandoni/code/esp32/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c", "/home/elandoni/code/esp32/esp-idf/components/esp_system/port/soc/esp32s3/cache_err_int.c", "/home/elandoni/code/esp32/esp-idf/components/esp_system/port/soc/esp32s3/apb_backup_dma.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1194,7 +1194,7 @@
             "priv_reqs": [ "esp_hal_timg" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/esp_timer/libesp_timer.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/esp_timer/libesp_timer.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/esp_timer/src/esp_timer.c", "/home/elandoni/code/esp32/esp-idf/components/esp_timer/src/esp_timer_init.c", "/home/elandoni/code/esp32/esp-idf/components/esp_timer/src/ets_timer_legacy.c", "/home/elandoni/code/esp32/esp-idf/components/esp_timer/src/system_time.c", "/home/elandoni/code/esp32/esp-idf/components/esp_timer/src/esp_timer_impl_common.c", "/home/elandoni/code/esp32/esp-idf/components/esp_timer/src/esp_timer_impl_systimer.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1239,7 +1239,7 @@
             "priv_reqs": [ "esp_pm", "esp_timer", "nvs_flash", "wpa_supplicant", "hal", "lwip", "esp_coex" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/esp_wifi/libesp_wifi.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/esp_wifi/libesp_wifi.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/esp_wifi/src/lib_printf.c", "/home/elandoni/code/esp32/esp-idf/components/esp_wifi/src/mesh_event.c", "/home/elandoni/code/esp32/esp-idf/components/esp_wifi/src/smartconfig.c", "/home/elandoni/code/esp32/esp-idf/components/esp_wifi/src/wifi_init.c", "/home/elandoni/code/esp32/esp-idf/components/esp_wifi/src/wifi_default.c", "/home/elandoni/code/esp32/esp-idf/components/esp_wifi/src/wifi_netif.c", "/home/elandoni/code/esp32/esp-idf/components/esp_wifi/src/wifi_default_ap.c", "/home/elandoni/code/esp32/esp-idf/components/esp_wifi/esp32s3/esp_adapter.c", "/home/elandoni/code/esp32/esp-idf/components/esp_wifi/regulatory/esp_wifi_regulatory.c", "/home/elandoni/code/esp32/esp-idf/components/esp_wifi/src/smartconfig_ack.c" ],
             "include_dirs": [ "include", "include/local", "wifi_apps/include", "wifi_apps/nan_app/include" ]
         },
@@ -1284,7 +1284,7 @@
             "priv_reqs": [ "vfs", "esp_driver_gpio", "esptool_py" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/fatfs/libfatfs.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/fatfs/libfatfs.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/fatfs/diskio/diskio.c", "/home/elandoni/code/esp32/esp-idf/components/fatfs/diskio/diskio_rawflash.c", "/home/elandoni/code/esp32/esp-idf/components/fatfs/diskio/diskio_wl.c", "/home/elandoni/code/esp32/esp-idf/components/fatfs/src/ff.c", "/home/elandoni/code/esp32/esp-idf/components/fatfs/src/ffunicode.c", "/home/elandoni/code/esp32/esp-idf/components/fatfs/port/freertos/ffsystem.c", "/home/elandoni/code/esp32/esp-idf/components/fatfs/diskio/diskio_sdmmc.c", "/home/elandoni/code/esp32/esp-idf/components/fatfs/vfs/vfs_fat.c", "/home/elandoni/code/esp32/esp-idf/components/fatfs/vfs/vfs_fat_sdmmc.c", "/home/elandoni/code/esp32/esp-idf/components/fatfs/vfs/vfs_fat_spiflash.c" ],
             "include_dirs": [ "diskio", "src", "vfs" ]
         },
@@ -1299,7 +1299,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/freertos/libfreertos.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/freertos/libfreertos.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/freertos/heap_idf.c", "/home/elandoni/code/esp32/esp-idf/components/freertos/app_startup.c", "/home/elandoni/code/esp32/esp-idf/components/freertos/port_common.c", "/home/elandoni/code/esp32/esp-idf/components/freertos/port_systick.c", "/home/elandoni/code/esp32/esp-idf/components/freertos/FreeRTOS-Kernel/list.c", "/home/elandoni/code/esp32/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c", "/home/elandoni/code/esp32/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c", "/home/elandoni/code/esp32/esp-idf/components/freertos/FreeRTOS-Kernel/timers.c", "/home/elandoni/code/esp32/esp-idf/components/freertos/FreeRTOS-Kernel/event_groups.c", "/home/elandoni/code/esp32/esp-idf/components/freertos/FreeRTOS-Kernel/stream_buffer.c", "/home/elandoni/code/esp32/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c", "/home/elandoni/code/esp32/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S", "/home/elandoni/code/esp32/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_init.c", "/home/elandoni/code/esp32/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_overlay_os_hook.c", "/home/elandoni/code/esp32/esp-idf/components/freertos/esp_additions/idf_additions_event_groups.c", "/home/elandoni/code/esp32/esp-idf/components/freertos/esp_additions/idf_additions.c" ],
             "include_dirs": [ "config/include", "config/include/freertos", "config/xtensa/include", "FreeRTOS-Kernel/include", "FreeRTOS-Kernel/portable/xtensa/include", "FreeRTOS-Kernel/portable/xtensa/include/freertos", "esp_additions/include" ]
         },
@@ -1314,7 +1314,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/hal/libhal.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/hal/libhal.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/hal/hal_utils.c", "/home/elandoni/code/esp32/esp-idf/components/hal/mpu_hal.c", "/home/elandoni/code/esp32/esp-idf/components/hal/efuse_hal.c", "/home/elandoni/code/esp32/esp-idf/components/hal/esp32s3/efuse_hal.c", "/home/elandoni/code/esp32/esp-idf/components/hal/mmu_hal.c", "/home/elandoni/code/esp32/esp-idf/components/hal/cache_hal.c", "/home/elandoni/code/esp32/esp-idf/components/hal/color_hal.c", "/home/elandoni/code/esp32/esp-idf/components/hal/esp32s3/clk_tree_hal.c", "/home/elandoni/code/esp32/esp-idf/components/hal/systimer_hal.c", "/home/elandoni/code/esp32/esp-idf/components/hal/uart_hal.c", "/home/elandoni/code/esp32/esp-idf/components/hal/uart_hal_iram.c", "/home/elandoni/code/esp32/esp-idf/components/hal/gpio_hal.c", "/home/elandoni/code/esp32/esp-idf/components/hal/rtc_io_hal.c", "/home/elandoni/code/esp32/esp-idf/components/hal/ledc_hal.c", "/home/elandoni/code/esp32/esp-idf/components/hal/ledc_hal_iram.c", "/home/elandoni/code/esp32/esp-idf/components/hal/rmt_hal.c", "/home/elandoni/code/esp32/esp-idf/components/hal/pcnt_hal.c", "/home/elandoni/code/esp32/esp-idf/components/hal/uhci_hal.c", "/home/elandoni/code/esp32/esp-idf/components/hal/twai_hal_v1.c", "/home/elandoni/code/esp32/esp-idf/components/hal/i2s_hal.c", "/home/elandoni/code/esp32/esp-idf/components/hal/sdm_hal.c", "/home/elandoni/code/esp32/esp-idf/components/hal/sdmmc_hal.c", "/home/elandoni/code/esp32/esp-idf/components/hal/adc_hal_common.c", "/home/elandoni/code/esp32/esp-idf/components/hal/adc_oneshot_hal.c", "/home/elandoni/code/esp32/esp-idf/components/hal/adc_hal.c", "/home/elandoni/code/esp32/esp-idf/components/hal/mpi_hal.c", "/home/elandoni/code/esp32/esp-idf/components/hal/sha_hal.c", "/home/elandoni/code/esp32/esp-idf/components/hal/aes_hal.c", "/home/elandoni/code/esp32/esp-idf/components/hal/brownout_hal.c", "/home/elandoni/code/esp32/esp-idf/components/hal/spi_hal.c", "/home/elandoni/code/esp32/esp-idf/components/hal/spi_hal_iram.c", "/home/elandoni/code/esp32/esp-idf/components/hal/spi_slave_hal.c", "/home/elandoni/code/esp32/esp-idf/components/hal/spi_slave_hal_iram.c", "/home/elandoni/code/esp32/esp-idf/components/hal/spi_slave_hd_hal.c", "/home/elandoni/code/esp32/esp-idf/components/hal/hmac_hal.c", "/home/elandoni/code/esp32/esp-idf/components/hal/ds_hal.c", "/home/elandoni/code/esp32/esp-idf/components/hal/cam_hal.c", "/home/elandoni/code/esp32/esp-idf/components/hal/usb_serial_jtag_hal.c", "/home/elandoni/code/esp32/esp-idf/components/hal/usb_dwc_hal.c", "/home/elandoni/code/esp32/esp-idf/components/hal/usb_wrap_hal.c", "/home/elandoni/code/esp32/esp-idf/components/hal/esp32s3/touch_sensor_hal.c", "/home/elandoni/code/esp32/esp-idf/components/hal/touch_sensor_hal.c", "/home/elandoni/code/esp32/esp-idf/components/hal/touch_sens_hal.c", "/home/elandoni/code/esp32/esp-idf/components/hal/temperature_sensor_hal.c", "/home/elandoni/code/esp32/esp-idf/components/hal/esp32s3/rtc_cntl_hal.c" ],
             "include_dirs": [ "platform_port/include", "esp32s3/include", "include" ]
         },
@@ -1329,7 +1329,7 @@
             "priv_reqs": [ "soc" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/heap/libheap.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/heap/libheap.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/heap/heap_caps_base.c", "/home/elandoni/code/esp32/esp-idf/components/heap/heap_caps.c", "/home/elandoni/code/esp32/esp-idf/components/heap/heap_caps_init.c", "/home/elandoni/code/esp32/esp-idf/components/heap/multi_heap.c", "/home/elandoni/code/esp32/esp-idf/components/heap/tlsf/tlsf.c", "/home/elandoni/code/esp32/esp-idf/components/heap/port/memory_layout_utils.c", "/home/elandoni/code/esp32/esp-idf/components/heap/port/esp32s3/memory_layout.c" ],
             "include_dirs": [ "include", "tlsf" ]
         },
@@ -1344,7 +1344,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/http_parser/libhttp_parser.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/http_parser/libhttp_parser.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/http_parser/http_parser.c" ],
             "include_dirs": [ "." ]
         },
@@ -1389,7 +1389,7 @@
             "priv_reqs": [ "hal", "soc", "esp_hw_support" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/log/liblog.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/log/liblog.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/log/src/os/log_timestamp.c", "/home/elandoni/code/esp32/esp-idf/components/log/src/log_timestamp_common.c", "/home/elandoni/code/esp32/esp-idf/components/log/src/os/log_lock.c", "/home/elandoni/code/esp32/esp-idf/components/log/src/buffer/log_buffers.c", "/home/elandoni/code/esp32/esp-idf/components/log/src/os/util.c", "/home/elandoni/code/esp32/esp-idf/components/log/src/util.c", "/home/elandoni/code/esp32/esp-idf/components/log/src/log_format_text.c", "/home/elandoni/code/esp32/esp-idf/components/log/src/log_print.c", "/home/elandoni/code/esp32/esp-idf/components/log/src/log.c", "/home/elandoni/code/esp32/esp-idf/components/log/src/os/log_write.c", "/home/elandoni/code/esp32/esp-idf/components/log/src/log_level/log_level.c", "/home/elandoni/code/esp32/esp-idf/components/log/src/log_level/tag_log_level/tag_log_level.c", "/home/elandoni/code/esp32/esp-idf/components/log/src/log_level/tag_log_level/linked_list/log_linked_list.c", "/home/elandoni/code/esp32/esp-idf/components/log/src/log_level/tag_log_level/cache/log_binary_heap.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1404,7 +1404,7 @@
             "priv_reqs": [ "vfs" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/lwip/liblwip.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/lwip/liblwip.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/lwip/apps/sntp/sntp.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/api/api_lib.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/api/api_msg.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/api/err.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/api/if_api.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/api/netbuf.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/api/netdb.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/api/netifapi.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/api/sockets.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/api/tcpip.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/apps/sntp/sntp.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/apps/netbiosns/netbiosns.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/core/def.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/core/dns.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/core/inet_chksum.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/core/init.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/core/ip.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/core/mem.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/core/memp.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/core/netif.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/core/pbuf.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/core/raw.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/core/stats.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/core/sys.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/core/tcp.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/core/tcp_in.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/core/tcp_out.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/core/timeouts.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/core/udp.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/core/ipv4/autoip.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/core/ipv4/dhcp.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/core/ipv4/etharp.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/core/ipv4/icmp.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/core/ipv4/igmp.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/core/ipv4/ip4.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/core/ipv4/ip4_napt.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/core/ipv4/ip4_addr.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/core/ipv4/ip4_frag.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/core/ipv6/dhcp6.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/core/ipv6/ethip6.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/core/ipv6/icmp6.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/core/ipv6/inet6.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/core/ipv6/ip6.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/core/ipv6/ip6_addr.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/core/ipv6/ip6_frag.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/core/ipv6/mld6.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/core/ipv6/nd6.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/netif/ethernet.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/netif/bridgeif.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/netif/bridgeif_fdb.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/netif/slipif.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/netif/ppp/auth.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/netif/ppp/ccp.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/netif/ppp/chap-md5.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/netif/ppp/chap-new.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/netif/ppp/chap_ms.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/netif/ppp/demand.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/netif/ppp/eap.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/netif/ppp/ecp.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/netif/ppp/eui64.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/netif/ppp/fsm.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/netif/ppp/ipcp.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/netif/ppp/ipv6cp.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/netif/ppp/lcp.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/netif/ppp/magic.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/netif/ppp/mppe.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/netif/ppp/multilink.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/netif/ppp/ppp.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/netif/ppp/pppapi.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/netif/ppp/pppcrypt.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/netif/ppp/pppoe.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/netif/ppp/pppol2tp.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/netif/ppp/pppos.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/netif/ppp/upap.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/netif/ppp/utils.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/netif/ppp/vj.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/port/hooks/tcp_isn_default.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/port/hooks/lwip_default_hooks.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/port/debug/lwip_debug.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/port/sockets_ext.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/port/freertos/sys_arch.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/port/if_index.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/port/acd_dhcp_check.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/port/esp32xx/vfs_lwip.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/apps/ping/ping_sock.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/netif/ppp/polarssl/arc4.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/netif/ppp/polarssl/des.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/netif/ppp/polarssl/md4.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/netif/ppp/polarssl/md5.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/lwip/src/netif/ppp/polarssl/sha1.c", "/home/elandoni/code/esp32/esp-idf/components/lwip/apps/dhcpserver/dhcpserver.c" ],
             "include_dirs": [ "include", "include/apps", "lwip/src/include", "port/include", "port/freertos/include/", "port/esp32xx/include", "port/esp32xx/include/arch", "port/esp32xx/include/sys" ]
         },
@@ -1412,15 +1412,15 @@
             "alias": "idf::main",
             "target": "___idf_main",
             "prefix": "idf",
-            "dir": "/home/elandoni/code/esp32/projects/led-blink-s3/main",
+            "dir": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/main",
             "type": "LIBRARY",
             "lib": "__idf_main",
             "reqs": [],
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/main/libmain.a",
-            "sources": [ "/home/elandoni/code/esp32/projects/led-blink-s3/main/led-blink-s3.c" ],
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/main/libmain.a",
+            "sources": [ "/home/elandoni/code/esp32/esp32-projects/01-led-blink/main/led-blink-s3.c" ],
             "include_dirs": [ "." ]
         },
         "mbedtls": {
@@ -1434,8 +1434,8 @@
             "priv_reqs": [ "soc", "esp_hw_support", "esp_pm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/mbedtls/libmbedtls.a",
-            "sources": [ "/home/elandoni/code/esp32/esp-idf/components/mbedtls/esp_crt_bundle/esp_crt_bundle.c", "/home/elandoni/code/esp32/projects/led-blink-s3/build/x509_crt_bundle.S" ],
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/mbedtls/libmbedtls.a",
+            "sources": [ "/home/elandoni/code/esp32/esp-idf/components/mbedtls/esp_crt_bundle/esp_crt_bundle.c", "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/x509_crt_bundle.S" ],
             "include_dirs": [ "port/include", "mbedtls/include", "mbedtls/library", "esp_crt_bundle/include" ]
         },
         "mqtt": {
@@ -1449,7 +1449,7 @@
             "priv_reqs": [ "esp_timer", "http_parser", "esp_hw_support", "heap" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/mqtt/libmqtt.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/mqtt/libmqtt.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/mqtt/esp-mqtt/mqtt_client.c", "/home/elandoni/code/esp32/esp-idf/components/mqtt/esp-mqtt/lib/mqtt_msg.c", "/home/elandoni/code/esp32/esp-idf/components/mqtt/esp-mqtt/lib/mqtt_outbox.c", "/home/elandoni/code/esp32/esp-idf/components/mqtt/esp-mqtt/lib/platform_esp32_idf.c" ],
             "include_dirs": [ "/home/elandoni/code/esp32/esp-idf/components/mqtt/esp-mqtt/include" ]
         },
@@ -1464,7 +1464,7 @@
             "priv_reqs": [ "spi_flash", "esp_libc", "esptool_py", "nvs_sec_provider" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/nvs_flash/libnvs_flash.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/nvs_flash/libnvs_flash.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/nvs_flash/src/nvs_api.cpp", "/home/elandoni/code/esp32/esp-idf/components/nvs_flash/src/nvs_cxx_api.cpp", "/home/elandoni/code/esp32/esp-idf/components/nvs_flash/src/nvs_item_hash_list.cpp", "/home/elandoni/code/esp32/esp-idf/components/nvs_flash/src/nvs_page.cpp", "/home/elandoni/code/esp32/esp-idf/components/nvs_flash/src/nvs_pagemanager.cpp", "/home/elandoni/code/esp32/esp-idf/components/nvs_flash/src/nvs_storage.cpp", "/home/elandoni/code/esp32/esp-idf/components/nvs_flash/src/nvs_handle_simple.cpp", "/home/elandoni/code/esp32/esp-idf/components/nvs_flash/src/nvs_handle_locked.cpp", "/home/elandoni/code/esp32/esp-idf/components/nvs_flash/src/nvs_partition.cpp", "/home/elandoni/code/esp32/esp-idf/components/nvs_flash/src/nvs_partition_lookup.cpp", "/home/elandoni/code/esp32/esp-idf/components/nvs_flash/src/nvs_partition_manager.cpp", "/home/elandoni/code/esp32/esp-idf/components/nvs_flash/src/nvs_types.cpp", "/home/elandoni/code/esp32/esp-idf/components/nvs_flash/src/nvs_platform.cpp", "/home/elandoni/code/esp32/esp-idf/components/nvs_flash/src/nvs_bootloader.c", "/home/elandoni/code/esp32/esp-idf/components/nvs_flash/src/nvs_encrypted_partition.cpp", "/home/elandoni/code/esp32/esp-idf/components/nvs_flash/src/nvs_bootloader_aes.c", "/home/elandoni/code/esp32/esp-idf/components/nvs_flash/src/nvs_bootloader_xts_aes.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1479,7 +1479,7 @@
             "priv_reqs": [ "bootloader_support", "efuse", "esp_partition", "nvs_flash" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/nvs_sec_provider/libnvs_sec_provider.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/nvs_sec_provider/libnvs_sec_provider.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/nvs_sec_provider/nvs_sec_provider.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1524,7 +1524,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/perfmon/libperfmon.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/perfmon/libperfmon.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/perfmon/xtensa_perfmon_access.c", "/home/elandoni/code/esp32/esp-idf/components/perfmon/xtensa_perfmon_apis.c", "/home/elandoni/code/esp32/esp-idf/components/perfmon/xtensa_perfmon_masks.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1539,7 +1539,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/protobuf-c/libprotobuf-c.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/protobuf-c/libprotobuf-c.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/protobuf-c/protobuf-c/protobuf-c/protobuf-c.c" ],
             "include_dirs": [ "protobuf-c" ]
         },
@@ -1554,7 +1554,7 @@
             "priv_reqs": [ "protobuf-c", "mbedtls", "console", "esp_http_server", "esp_driver_uart" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/protocomm/libprotocomm.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/protocomm/libprotocomm.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/protocomm/src/common/protocomm.c", "/home/elandoni/code/esp32/esp-idf/components/protocomm/proto-c/constants.pb-c.c", "/home/elandoni/code/esp32/esp-idf/components/protocomm/proto-c/sec0.pb-c.c", "/home/elandoni/code/esp32/esp-idf/components/protocomm/proto-c/sec1.pb-c.c", "/home/elandoni/code/esp32/esp-idf/components/protocomm/proto-c/sec2.pb-c.c", "/home/elandoni/code/esp32/esp-idf/components/protocomm/proto-c/session.pb-c.c", "/home/elandoni/code/esp32/esp-idf/components/protocomm/src/transports/protocomm_console.c", "/home/elandoni/code/esp32/esp-idf/components/protocomm/src/transports/protocomm_httpd.c", "/home/elandoni/code/esp32/esp-idf/components/protocomm/src/security/security2.c", "/home/elandoni/code/esp32/esp-idf/components/protocomm/src/crypto/srp6a/esp_srp.c", "/home/elandoni/code/esp32/esp-idf/components/protocomm/src/crypto/srp6a/esp_srp_mpi.c" ],
             "include_dirs": [ "include/common", "include/security", "include/transports", "include/crypto/srp6a", "proto-c" ]
         },
@@ -1569,7 +1569,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/pthread/libpthread.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/pthread/libpthread.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/pthread/pthread.c", "/home/elandoni/code/esp32/esp-idf/components/pthread/pthread_cond_var.c", "/home/elandoni/code/esp32/esp-idf/components/pthread/pthread_local_storage.c", "/home/elandoni/code/esp32/esp-idf/components/pthread/pthread_rwlock.c", "/home/elandoni/code/esp32/esp-idf/components/pthread/pthread_semaphore.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1584,7 +1584,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/rt/librt.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/rt/librt.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/rt/FreeRTOS_POSIX_mqueue.c", "/home/elandoni/code/esp32/esp-idf/components/rt/FreeRTOS_POSIX_utils.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1599,7 +1599,7 @@
             "priv_reqs": [ "soc", "esp_timer", "esp_mm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/sdmmc/libsdmmc.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/sdmmc/libsdmmc.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/sdmmc/sdmmc_cmd.c", "/home/elandoni/code/esp32/esp-idf/components/sdmmc/sdmmc_common.c", "/home/elandoni/code/esp32/esp-idf/components/sdmmc/sdmmc_init.c", "/home/elandoni/code/esp32/esp-idf/components/sdmmc/sdmmc_mmc.c", "/home/elandoni/code/esp32/esp-idf/components/sdmmc/sdmmc_sd.c", "/home/elandoni/code/esp32/esp-idf/components/sdmmc/sd_pwr_ctrl/sd_pwr_ctrl.c", "/home/elandoni/code/esp32/esp-idf/components/sdmmc/sdmmc_io.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1614,7 +1614,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/soc/libsoc.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/soc/libsoc.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/soc/lldesc.c", "/home/elandoni/code/esp32/esp-idf/components/soc/dport_access_common.c", "/home/elandoni/code/esp32/esp-idf/components/soc/esp32s3/interrupts.c", "/home/elandoni/code/esp32/esp-idf/components/soc/esp32s3/gpio_periph.c", "/home/elandoni/code/esp32/esp-idf/components/soc/esp32s3/uart_periph.c", "/home/elandoni/code/esp32/esp-idf/components/soc/esp32s3/adc_periph.c", "/home/elandoni/code/esp32/esp-idf/components/soc/esp32s3/dedic_gpio_periph.c", "/home/elandoni/code/esp32/esp-idf/components/soc/esp32s3/spi_periph.c", "/home/elandoni/code/esp32/esp-idf/components/soc/esp32s3/ledc_periph.c", "/home/elandoni/code/esp32/esp-idf/components/soc/esp32s3/pcnt_periph.c", "/home/elandoni/code/esp32/esp-idf/components/soc/esp32s3/rmt_periph.c", "/home/elandoni/code/esp32/esp-idf/components/soc/esp32s3/sdm_periph.c", "/home/elandoni/code/esp32/esp-idf/components/soc/esp32s3/i2s_periph.c", "/home/elandoni/code/esp32/esp-idf/components/soc/esp32s3/temperature_sensor_periph.c", "/home/elandoni/code/esp32/esp-idf/components/soc/esp32s3/mpi_periph.c", "/home/elandoni/code/esp32/esp-idf/components/soc/esp32s3/sdmmc_periph.c", "/home/elandoni/code/esp32/esp-idf/components/soc/esp32s3/touch_sensor_periph.c", "/home/elandoni/code/esp32/esp-idf/components/soc/esp32s3/twai_periph.c", "/home/elandoni/code/esp32/esp-idf/components/soc/esp32s3/usb_dwc_periph.c", "/home/elandoni/code/esp32/esp-idf/components/soc/esp32s3/rtc_io_periph.c", "/home/elandoni/code/esp32/esp-idf/components/soc/esp32s3/cam_periph.c", "/home/elandoni/code/esp32/esp-idf/components/soc/esp32s3/power_supply_periph.c" ],
             "include_dirs": [ "include", "esp32s3", "esp32s3/include", "esp32s3/register" ]
         },
@@ -1629,7 +1629,7 @@
             "priv_reqs": [ "bootloader_support", "soc", "esp_mm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/spi_flash/libspi_flash.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/spi_flash/libspi_flash.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/spi_flash/flash_brownout_hook.c", "/home/elandoni/code/esp32/esp-idf/components/spi_flash/esp32s3/spi_flash_oct_flash_init.c", "/home/elandoni/code/esp32/esp-idf/components/spi_flash/spi_flash_hpm_enable.c", "/home/elandoni/code/esp32/esp-idf/components/spi_flash/spi_flash_chip_drivers.c", "/home/elandoni/code/esp32/esp-idf/components/spi_flash/spi_flash_chip_generic.c", "/home/elandoni/code/esp32/esp-idf/components/spi_flash/spi_flash_chip_issi.c", "/home/elandoni/code/esp32/esp-idf/components/spi_flash/spi_flash_chip_mxic.c", "/home/elandoni/code/esp32/esp-idf/components/spi_flash/spi_flash_chip_gd.c", "/home/elandoni/code/esp32/esp-idf/components/spi_flash/spi_flash_chip_winbond.c", "/home/elandoni/code/esp32/esp-idf/components/spi_flash/spi_flash_chip_boya.c", "/home/elandoni/code/esp32/esp-idf/components/spi_flash/spi_flash_chip_mxic_opi.c", "/home/elandoni/code/esp32/esp-idf/components/spi_flash/spi_flash_chip_th.c", "/home/elandoni/code/esp32/esp-idf/components/spi_flash/memspi_host_driver.c", "/home/elandoni/code/esp32/esp-idf/components/spi_flash/cache_utils.c", "/home/elandoni/code/esp32/esp-idf/components/spi_flash/flash_mmap.c", "/home/elandoni/code/esp32/esp-idf/components/spi_flash/flash_ops.c", "/home/elandoni/code/esp32/esp-idf/components/spi_flash/spi_flash_wrap.c", "/home/elandoni/code/esp32/esp-idf/components/spi_flash/esp_flash_api.c", "/home/elandoni/code/esp32/esp-idf/components/spi_flash/esp_flash_spi_init.c", "/home/elandoni/code/esp32/esp-idf/components/spi_flash/spi_flash_os_func_app.c", "/home/elandoni/code/esp32/esp-idf/components/spi_flash/spi_flash_os_func_noos.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1644,7 +1644,7 @@
             "priv_reqs": [ "bootloader_support", "vfs", "esptool_py" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/spiffs/libspiffs.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/spiffs/libspiffs.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/spiffs/spiffs_api.c", "/home/elandoni/code/esp32/esp-idf/components/spiffs/spiffs/src/spiffs_cache.c", "/home/elandoni/code/esp32/esp-idf/components/spiffs/spiffs/src/spiffs_check.c", "/home/elandoni/code/esp32/esp-idf/components/spiffs/spiffs/src/spiffs_gc.c", "/home/elandoni/code/esp32/esp-idf/components/spiffs/spiffs/src/spiffs_hydrogen.c", "/home/elandoni/code/esp32/esp-idf/components/spiffs/spiffs/src/spiffs_nucleus.c", "/home/elandoni/code/esp32/esp-idf/components/spiffs/esp_spiffs.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1659,7 +1659,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/tcp_transport/libtcp_transport.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/tcp_transport/libtcp_transport.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/tcp_transport/transport.c", "/home/elandoni/code/esp32/esp-idf/components/tcp_transport/transport_ssl.c", "/home/elandoni/code/esp32/esp-idf/components/tcp_transport/transport_internal.c", "/home/elandoni/code/esp32/esp-idf/components/tcp_transport/transport_socks_proxy.c", "/home/elandoni/code/esp32/esp-idf/components/tcp_transport/transport_ws.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1689,7 +1689,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/unity/libunity.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/unity/libunity.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/unity/unity/src/unity.c", "/home/elandoni/code/esp32/esp-idf/components/unity/unity_compat.c", "/home/elandoni/code/esp32/esp-idf/components/unity/unity_runner.c", "/home/elandoni/code/esp32/esp-idf/components/unity/unity_utils_freertos.c", "/home/elandoni/code/esp32/esp-idf/components/unity/unity_utils_cache.c", "/home/elandoni/code/esp32/esp-idf/components/unity/unity_utils_memory.c", "/home/elandoni/code/esp32/esp-idf/components/unity/unity_port_esp32.c", "/home/elandoni/code/esp32/esp-idf/components/unity/port/esp/unity_utils_memory_esp.c" ],
             "include_dirs": [ "include", "unity/src" ]
         },
@@ -1704,7 +1704,7 @@
             "priv_reqs": [ "esp_driver_uart", "esp_driver_usb_serial_jtag", "esp_usb_cdc_rom_console" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/vfs/libvfs.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/vfs/libvfs.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/vfs/vfs.c", "/home/elandoni/code/esp32/esp-idf/components/vfs/vfs_eventfd.c", "/home/elandoni/code/esp32/esp-idf/components/vfs/vfs_semihost.c", "/home/elandoni/code/esp32/esp-idf/components/vfs/nullfs.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1719,7 +1719,7 @@
             "priv_reqs": [ "spi_flash" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/wear_levelling/libwear_levelling.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/wear_levelling/libwear_levelling.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/wear_levelling/Partition.cpp", "/home/elandoni/code/esp32/esp-idf/components/wear_levelling/SPI_Flash.cpp", "/home/elandoni/code/esp32/esp-idf/components/wear_levelling/WL_Ext_Perf.cpp", "/home/elandoni/code/esp32/esp-idf/components/wear_levelling/WL_Ext_Safe.cpp", "/home/elandoni/code/esp32/esp-idf/components/wear_levelling/WL_Flash.cpp", "/home/elandoni/code/esp32/esp-idf/components/wear_levelling/crc32.cpp", "/home/elandoni/code/esp32/esp-idf/components/wear_levelling/wear_levelling.cpp" ],
             "include_dirs": [ "include" ]
         },
@@ -1734,7 +1734,7 @@
             "priv_reqs": [ "mbedtls", "esp_timer", "esp_wifi" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/wpa_supplicant/libwpa_supplicant.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/wpa_supplicant/libwpa_supplicant.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/port/os_xtensa.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/port/eloop.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/ap/ap_config.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/ap/ieee802_1x.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/ap/wpa_auth.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/ap/wpa_auth_ie.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/ap/pmksa_cache_auth.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/ap/sta_info.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/ap/ieee802_11.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/ap/comeback_token.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/common/sae.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/common/dragonfly.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/common/wpa_common.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/utils/bitfield.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/crypto/aes-siv.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/crypto/sha256-kdf.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/crypto/ccmp.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/crypto/aes-gcm.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/crypto/crypto_ops.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/crypto/dh_group5.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/crypto/dh_groups.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/crypto/ms_funcs.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/crypto/sha1-tlsprf.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/crypto/sha256-tlsprf.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/crypto/sha384-tlsprf.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/crypto/sha256-prf.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/crypto/sha1-prf.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/crypto/sha384-prf.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/crypto/md4-internal.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/crypto/sha1-tprf.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/eap_common/eap_wsc_common.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/common/ieee802_11_common.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/eap_peer/chap.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/eap_peer/eap.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/eap_peer/eap_common.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/eap_peer/eap_mschapv2.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/eap_peer/eap_peap.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/eap_peer/eap_peap_common.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/eap_peer/eap_tls.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/eap_peer/eap_tls_common.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/eap_peer/eap_ttls.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/eap_peer/mschapv2.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/eap_peer/eap_fast.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/eap_peer/eap_fast_common.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/eap_peer/eap_fast_pac.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/rsn_supp/pmksa_cache.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/rsn_supp/wpa.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/rsn_supp/wpa_ie.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/utils/base64.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/utils/common.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/utils/ext_password.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/utils/uuid.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/utils/wpabuf.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/utils/wpa_debug.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/utils/json.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/wps/wps.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/wps/wps_attr_build.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/wps/wps_attr_parse.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/wps/wps_attr_process.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/wps/wps_common.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/wps/wps_dev_attr.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/wps/wps_enrollee.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/common/sae_pk.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_eap_client.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpa2_api_port.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpa_main.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpas_glue.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_common.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wps.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpa3.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_owe.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_hostap.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/tls_mbedtls.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls-bignum.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls-rsa.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls-ec.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/fastpsk.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/crypto/rc4.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/crypto/des-internal.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/fastpbkdf2.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/crypto/aes-wrap.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/crypto/aes-unwrap.c", "/home/elandoni/code/esp32/esp-idf/components/wpa_supplicant/src/crypto/aes-ccm.c" ],
             "include_dirs": [ "include", "port/include", "esp_supplicant/include" ]
         },
@@ -1749,7 +1749,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/xtensa/libxtensa.a",
+            "file": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/xtensa/libxtensa.a",
             "sources": [ "/home/elandoni/code/esp32/esp-idf/components/xtensa/eri.c", "/home/elandoni/code/esp32/esp-idf/components/xtensa/xt_trax.c", "/home/elandoni/code/esp32/esp-idf/components/xtensa/xtensa_context.S", "/home/elandoni/code/esp32/esp-idf/components/xtensa/xtensa_intr_asm.S", "/home/elandoni/code/esp32/esp-idf/components/xtensa/xtensa_intr.c", "/home/elandoni/code/esp32/esp-idf/components/xtensa/xtensa_vectors.S" ],
             "include_dirs": [ "esp32s3/include", "include", "deprecated_include" ]
         }
@@ -3163,7 +3163,7 @@
             "alias": "idf::main",
             "target": "___idf_main",
             "prefix": "idf",
-            "dir": "/home/elandoni/code/esp32/projects/led-blink-s3/main",
+            "dir": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/main",
             "lib": "__idf_main",
             "reqs": [],
             "priv_reqs": [],
@@ -3173,10 +3173,10 @@
         }
     },
     "gdbinit_files": {
-        "01_symbols": "/home/elandoni/code/esp32/projects/led-blink-s3/build/gdbinit/symbols",
-        "02_prefix_map": "/home/elandoni/code/esp32/projects/led-blink-s3/build/gdbinit/prefix_map",
-        "03_py_extensions": "/home/elandoni/code/esp32/projects/led-blink-s3/build/gdbinit/py_extensions",
-        "04_connect": "/home/elandoni/code/esp32/projects/led-blink-s3/build/gdbinit/connect"
+        "01_symbols": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/gdbinit/symbols",
+        "02_prefix_map": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/gdbinit/prefix_map",
+        "03_py_extensions": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/gdbinit/py_extensions",
+        "04_connect": "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/gdbinit/connect"
     },
     "debug_arguments_openocd": "-f board/esp32s3-builtin.cfg"
 }

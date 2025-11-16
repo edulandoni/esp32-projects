@@ -10,18 +10,18 @@ if(NOT EXISTS "/home/elandoni/code/esp32/esp-idf/components/bootloader/subprojec
   file(MAKE_DIRECTORY "/home/elandoni/code/esp32/esp-idf/components/bootloader/subproject")
 endif()
 file(MAKE_DIRECTORY
-  "/home/elandoni/code/esp32/projects/led-blink-s3/build/bootloader"
-  "/home/elandoni/code/esp32/projects/led-blink-s3/build/bootloader-prefix"
-  "/home/elandoni/code/esp32/projects/led-blink-s3/build/bootloader-prefix/tmp"
-  "/home/elandoni/code/esp32/projects/led-blink-s3/build/bootloader-prefix/src/bootloader-stamp"
-  "/home/elandoni/code/esp32/projects/led-blink-s3/build/bootloader-prefix/src"
-  "/home/elandoni/code/esp32/projects/led-blink-s3/build/bootloader-prefix/src/bootloader-stamp"
+  "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/bootloader"
+  "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/bootloader-prefix"
+  "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/bootloader-prefix/tmp"
+  "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/bootloader-prefix/src/bootloader-stamp"
+  "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/bootloader-prefix/src"
+  "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/home/elandoni/code/esp32/projects/led-blink-s3/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/home/elandoni/code/esp32/projects/led-blink-s3/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()

@@ -17,4 +17,4 @@ set confirm off
 set confirm on
 
 # Load application symbols
-file /home/elandoni/code/esp32/projects/led-blink-s3/build/bootloader/bootloader.elf
+file /home/elandoni/code/esp32/esp32-projects/01-led-blink/build/bootloader/bootloader.elf

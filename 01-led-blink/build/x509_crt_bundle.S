@@ -1,4 +1,4 @@
-/* * Data converted from /home/elandoni/code/esp32/projects/led-blink-s3/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from /home/elandoni/code/esp32/esp32-projects/01-led-blink/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 #if !defined (__APPLE__) && !defined (__linux__)

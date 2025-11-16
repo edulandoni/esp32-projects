@@ -39,13 +39,13 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/elandoni/code/esp32/projects/led-blink-s3/build/bootloader/esp-idf/cmake_install.cmake")
+  include("/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/bootloader/esp-idf/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/elandoni/code/esp32/projects/led-blink-s3/build/bootloader/install_local_manifest.txt"
+  file(WRITE "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/bootloader/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -61,6 +61,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/elandoni/code/esp32/projects/led-blink-s3/build/bootloader/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/home/elandoni/code/esp32/esp32-projects/01-led-blink/build/bootloader/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

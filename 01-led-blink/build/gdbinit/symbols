@@ -13,8 +13,8 @@ end
 
 # Load bootloader symbols
 set confirm off
-    add-symbol-file /home/elandoni/code/esp32/projects/led-blink-s3/build/bootloader/bootloader.elf
+    add-symbol-file /home/elandoni/code/esp32/esp32-projects/01-led-blink/build/bootloader/bootloader.elf
 set confirm on
 
 # Load application symbols
-file /home/elandoni/code/esp32/projects/led-blink-s3/build/led-blink-s3.elf
+file /home/elandoni/code/esp32/esp32-projects/01-led-blink/build/led-blink-s3.elf
