@@ -1,0 +1,2 @@
+source /home/elandoni/code/esp32/esp32-projects/03-i2c-scan/build/gdbinit/symbols
+source /home/elandoni/code/esp32/esp32-projects/03-i2c-scan/build/gdbinit/connect
