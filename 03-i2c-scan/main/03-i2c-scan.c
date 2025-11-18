@@ -61,9 +61,25 @@ static void i2c_scan_bus(void)
 {
 	printf("Scanning I2C bus... \n");
 
-	for (UNIT8_T ADDR = 1; ADD)
+	for (unit8_t addr = 1; addr < 0x7F; addr++){
+    esp_err_t err = i2c_probe_address(addr);
+    if (err == ESP_OK){
+      printf("Found device at 0x%02X\n", addr);
+    }
+  }
+  printf("Scan done.\n");
+}
 
+void app_main(void)
+{
+  i2c_master_init();
+  vTaskDelay(pdMS_TO_TICKS(100));
+  i2c_scan_bus();
 
+  while(1){
+    vTaskDelay(pdMS_TO_TICKS(1000));
+  }
+}
 
 
 
