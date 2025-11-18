@@ -2,6 +2,7 @@
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 #include "driver/i2c.h"
+#include "esp_err.h"
 
 #define I2C_PORT I2C_NUM_0
 #define I2C_SDA_GPIO 8
@@ -21,7 +22,7 @@ static void i2c_master_init(void)
 		.clk_flags = 0
 	}
 
-	esp_err-T err = i2c_param_config(I2C_PORT, &conf);
+	esp_err-t err = i2c_param_config(I2C_PORT, &conf);
 	if (err != ESP_OK){
 		printf("i2c_param_config failed: %s\n", esp_err_to_name(err));
 		return;
@@ -37,7 +38,11 @@ static void i2c_master_init(void)
 static esp_err_t i2c_probe_address(unit8_t addr)
 {
 	i2_cmd_handle_t cmd = i2c_cmd_link_create();
-	i2c_master_start(cmd);
+	if (cmd == NULL){
+    return ESP_FAIL;
+  }
+
+  i2c_master_start(cmd);
 	i2c_master_write_byte(cmd, (addr<<1) | I2C_MASTER_WRITE, true);
 	i2c_masteer_stop(cmd);
 
@@ -54,7 +59,7 @@ static esp_err_t i2c_probe_address(unit8_t addr)
 
 static void i2c_scan_bus(void)
 {
-	printf("Scanning I"C bus... \n");
+	printf("Scanning I2C bus... \n");
 
 	for (UNIT8_T ADDR = 1; ADD)
 
