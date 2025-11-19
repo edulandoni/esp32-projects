@@ -1,7 +1,7 @@
 {
     "version":            "1.2",
     "project_name":       "03-i2c-scan",
-    "project_version":    "3843891-dirty",
+    "project_version":    "dd61ea9-dirty",
     "project_path":       "/home/edulandoni/code/esp32-projects/03-i2c-scan",
     "idf_path":           "/home/edulandoni/esp32/esp-idf",
     "build_dir":          "/home/edulandoni/code/esp32-projects/03-i2c-scan/build",
